@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Méthodologie — d'où viennent les chiffres de Fumée blanche | Ouaisfieu</title>
+<meta name="description" content="Ce que le Bureau fédéral du Plan fournit, ce que nous ajoutons, et comment le simulateur calcule l'écart entre le montant annoncé et le montant réellement constaté. Hypothèses, formules et limites, en clair.">
+<link rel="canonical" href="https://ouaisfieu.github.io/sims/conclave/methodologie.html">
+<link rel="alternate" hreflang="fr" href="https://ouaisfieu.github.io/sims/conclave/methodologie.html">
+<link rel="alternate" hreflang="x-default" href="https://ouaisfieu.github.io/sims/conclave/methodologie.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Ouaisfieu · sims">
+<meta property="og:locale" content="fr_BE">
+<meta property="og:title" content="Méthodologie — d'où viennent les chiffres de Fumée blanche">
+<meta property="og:description" content="Trois niveaux de provenance, un modèle explicite, et la liste de ce que nous nous interdisons.">
+<meta property="og:url" content="https://ouaisfieu.github.io/sims/conclave/methodologie.html">
+<meta property="og:image" content="https://ouaisfieu.github.io/sims/assets/img/partage.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A0C11">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="icon" href="../assets/img/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/icone-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/corpus.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"TechArticle","@id":"https://ouaisfieu.github.io/sims/conclave/methodologie.html#article",
+"headline":"Méthodologie du simulateur Fumée blanche","inLanguage":"fr-BE",
+"url":"https://ouaisfieu.github.io/sims/conclave/methodologie.html",
+"description":"Provenance des montants, hypothèses éditoriales, formules du modèle et limites connues du simulateur du conclave budgétaire fédéral belge.",
+"publisher":{"@type":"Organization","name":"Ouaisfieu","url":"https://ouaisfieu.github.io/sims/"},
+"citation":{"@type":"CreativeWork","name":"Options de politiques pour l'élaboration du budget 2027","author":{"@type":"GovernmentOrganization","name":"Bureau fédéral du Plan"},"datePublished":"2026-06-01","url":"https://www.plan.be/sites/default/files/documents/REP_BUDGET2027_13320_FR.pdf"}},
+{"@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"sims","item":"https://ouaisfieu.github.io/sims/"},
+{"@type":"ListItem","position":2,"name":"Fumée blanche","item":"https://ouaisfieu.github.io/sims/conclave/"},
+{"@type":"ListItem","position":3,"name":"Méthodologie","item":"https://ouaisfieu.github.io/sims/conclave/methodologie.html"}]}]}
+</script>
+</head>
+<body>
+<a class="saut-contenu" href="#contenu">Aller au contenu</a>
+<header class="entete-site">
+  <div class="enveloppe entete-site__barre">
+    <a class="marque" href="../"><svg viewBox="0 0 40 64" aria-hidden="true" focusable="false" fill="currentColor"><circle cx="20" cy="57" r="4"/><circle cx="23" cy="47" r="5.5"/><circle cx="16" cy="37" r="6.5"/><circle cx="24" cy="27" r="7.5"/><circle cx="15" cy="18" r="7"/><circle cx="23" cy="9" r="6"/></svg><span>Ouaisfieu · sims</span></a>
+    <nav aria-label="Principale">
+      <a href="./">Le simulateur</a>
+      <a href="mesures/">Les mesures</a>
+      <a href="cheatcodes/">Cheatcodes</a>
+      <a href="methodologie.html" aria-current="page">Méthodologie</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="fil enveloppe" aria-label="Fil d'Ariane"><ol>
+  <li><a href="../">sims</a></li><li><a href="./">Fumée blanche</a></li><li><span aria-current="page">Méthodologie</span></li>
+</ol></nav>
+
+<main class="corps enveloppe" id="contenu">
+<article>
+  <h1>Méthodologie</h1>
+  <p class="chapo">Un simulateur qui invente ses chiffres n'a aucune valeur. Cette page dit exactement ce qui vient du Bureau fédéral du Plan, ce qui vient de notre analyse, ce qui relève d'un jugement, et comment le calcul est fait. Tout est vérifiable : les données brutes et le code sont publics.</p>
+
+  <h2>1. Trois provenances, jamais confondues</h2>
+  <p>Chaque montant affiché dans le jeu et dans l'encyclopédie porte une étiquette de provenance. Elles ne se valent pas.</p>
+
+  <section class="bloc">
+    <h2><span class="etiquette etiquette--bfp">chiffré BFP</span></h2>
+    <p><strong>39 mesures.</strong> Le montant figure tel quel dans le classeur de données annexé au rapport du Bureau fédéral du Plan <cite>Options de politiques pour l'élaboration du budget 2027</cite>, publié le 1<sup>er</sup> juin 2026 à la demande du ministre du Budget. Ces 39 montants proviennent eux-mêmes du chiffrage des programmes électoraux de 2024 réalisé par le Bureau du Plan, ce qui explique que chaque mesure porte le nom du parti dont la proposition sert de référence.</p>
+    <p style="margin:0">Le Bureau du Plan avertit que ce sont des <strong>rendements bruts à modalités non précisées</strong>, et que de nombreuses mesures du corpus ne disposent pas d'un chiffrage complet faute de modalités définies. Nous reprenons cet avertissement à notre compte.</p>
+  </section>
+
+  <section class="bloc">
+    <h2><span class="etiquette etiquette--analyse">analyse</span></h2>
+    <p style="margin:0"><strong>15 mesures.</strong> La mesure figure bien au corpus du Bureau du Plan, mais sans chiffrage. Le montant provient alors de notre dossier <cite>Trouver 23 milliards</cite> du 13 septembre 2026, lui-même adossé aux fourchettes publiées par le Bureau du Plan, la Cour des comptes, le Conseil supérieur des Finances et la Banque nationale. C'est le cas notamment de la TVA, de la fonction publique, du saut d'index et de l'écart de TVA. Ces montants sont des ordres de grandeur défendables, pas des chiffrages officiels, et ils ne sont jamais présentés comme tels.</p>
+  </section>
+
+  <section class="bloc">
+    <h2><span class="etiquette etiquette--rouge">artifice</span></h2>
+    <p style="margin:0"><strong>2 cartes.</strong> Elles ne correspondent à aucune mesure : ce sont des pratiques de construction budgétaire — l'inscription des effets retour au solde, le report d'une partie de l'effort au-delà de l'horizon. Elles existent parce qu'elles ont réellement été employées, et parce qu'un simulateur qui ne les proposerait pas mentirait sur la nature de l'exercice.</p>
+  </section>
+
+  <h2>2. Ce que le classeur ne dit pas</h2>
+  <p>Le classeur fournit un intitulé, une catégorie, des modalités techniques, parfois un montant, et la référence du chiffrage. Il ne fournit rien d'autre. Tout le reste est de nous, et se reconnaît à ce qu'il porte la mention <em>appréciation Ouaisfieu</em> :</p>
+  <ul>
+    <li><strong>Le sens de la mesure.</strong> Le classeur donne une « impulsion budgétaire » sans signe. Maintenir la norme de croissance des soins de santé coûte ; l'abaisser rapporte ; le même tableau les note tous deux positivement. Nous tranchons d'après l'intitulé, et nous signalons les cas où l'intitulé ne suffit pas à trancher.</li>
+    <li><strong>La robustesse du chiffrage</strong>, notée de 1 à 5. Elle reflète la confiance que les institutions de contrôle accordent au rendement annoncé.</li>
+    <li><strong>Le délai de mise en œuvre</strong>, le <strong>risque juridique</strong>, la <strong>part de charge transférée</strong> aux entités fédérées et aux CPAS, l'existence d'un <strong>effet retour</strong>, le caractère <strong>structurel</strong> ou non.</li>
+    <li><strong>La réaction des cinq partis</strong>, notée de −3 à +3, et les <strong>lignes rouges</strong>.</li>
+    <li><strong>Les chevauchements d'assiette</strong>, qui déterminent les doubles comptages.</li>
+  </ul>
+
+  <h2>3. Les lignes rouges</h2>
+  <p>C'est l'endroit le plus exposé de ce travail, et nous le disons sans détour : les réactions des partis sont une <strong>reconstruction éditoriale</strong> de positions publiques, pas une mesure. Elles s'appuient sur des déclarations documentées.</p>
+  <dl class="champs">
+    <dt>MR</dt><dd>Ligne rouge absolue sur la TVA, qualifiée d'« attaque inacceptable ». Refus de toute hausse d'impôt, plan de 16 à 17 milliards d'économies. <span class="sourdine petit">La Libre, 6 septembre 2026.</span></dd>
+    <dt>N-VA</dt><dd>Le problème est un problème de dépenses. Ligne rouge sur la fiscalité du patrimoine, avec une ouverture possible sur les plus-values si la mesure est présentée comme anti-abus.</dd>
+    <dt>Vooruit</dt><dd>Contribution patrimoniale exigée, refus des coupes dans la norme santé et les allocations. A déjà cédé sur le chômage.</dd>
+    <dt>CD&amp;V</dt><dd>Environ 7 milliards par des mesures de long terme. Santé et familles protégées. Position de médiateur.</dd>
+    <dt>Les Engagés</dt><dd>Aucune ligne rouge explicitée publiquement, et la plus grande marge de manœuvre des cinq. <span class="sourdine petit">DH, 3 septembre 2026.</span></dd>
+  </dl>
+  <p>Si vous estimez qu'une de ces positions est mal restituée, elle est modifiable en un endroit : le fichier <code>tools/enrichissement.json</code> du dépôt. Nous prenons les corrections argumentées.</p>
+
+  <h2>4. Le modèle : annoncé contre réel</h2>
+  <p>Le simulateur tient deux totaux. Le <strong>montant annoncé</strong> est la somme de ce que vous posez sur la table, compté à l'horizon du plan. Le <strong>montant réel</strong> est ce qu'il en reste après les décotes que les institutions de contrôle appliquent, en pratique, aux accords budgétaires belges.</p>
+
+  <h3>4.1 De « à plein régime » à « à l'horizon 2029 »</h3>
+  <p>Une réforme qui demande cinq ans de transition ne rapporte pas son plein montant dans la fenêtre du plan budgétaire. Nous appliquons donc un facteur d'horizon selon le délai : <strong>1,0</strong> pour une mise en œuvre immédiate, <strong>0,9</strong> à un ou deux ans, <strong>0,7</strong> à deux ou trois ans, <strong>0,4</strong> à quatre ou six ans. Les cessions d'actifs, qui sont un stock et non un flux, ne comptent que pour <strong>0,2</strong>. Ces facteurs sont des hypothèses de travail, pas des constantes établies.</p>
+
+  <h3>4.2 Les décotes appliquées en mars 2027</h3>
+  <ul>
+    <li><strong>One-shots et artifices</strong> : ramenés à zéro. Une cession d'actifs améliore la trésorerie d'une année et ne change rien au solde structurel ; la Commission et les agences la neutralisent.</li>
+    <li><strong>Mesures temporaires</strong> : réduites de 60 %. Un saut d'index ou une non-indexation ciblée rapporte tant qu'ils durent.</li>
+    <li><strong>Décote de chiffrage</strong> : le rendement retenu vaut 45 %, 60 %, 75 %, 88 % ou 97 % du montant selon la robustesse notée de 1 à 5.</li>
+    <li><strong>Charge transférée</strong> : retirée à proportion. La norme européenne de dépenses nettes porte sur l'ensemble des administrations publiques ; une économie fédérale devenue dépense communale ne réduit l'écart d'aucun euro.</li>
+    <li><strong>Effet retour</strong> : le rendement qui suppose un changement de comportement est réduit de 35 %. La Banque nationale retient un retour à l'emploi de 10 à 20 % des exclus, contre un tiers pour le gouvernement.</li>
+    <li><strong>Double comptage</strong> : la deuxième mesure d'une même famille d'assiette est réduite de moitié.</li>
+    <li><strong>Annulation juridique</strong> : une mesure exposée peut être intégralement annulée, avec une probabilité de 16 % par degré de risque. Le tirage est déterministe à partir de la graine de la partie, pour qu'un budget partagé se rejoue à l'identique.</li>
+    <li><strong>Facteur global de crédibilité</strong> : le total est enfin multiplié par 0,75 + 0,25 × (crédibilité ⁄ 100). Un accord sans réforme de méthode perd un quart de son rendement ; un accord adossé à des revues de dépenses et à un chiffrage contradictoire n'en perd presque rien.</li>
+  </ul>
+  <p>Ces coefficients sont calibrés pour reproduire un ordre de grandeur documenté, pas pour prédire. La Cour des comptes a établi, sur le seul accord de novembre 2025, un écart annuel de l'ordre d'un milliard sur quatre lignes de recettes, et un double comptage d'environ deux milliards sur les effets retour a été signalé dès mai 2025.</p>
+
+  <h2>5. Ce que nous nous interdisons</h2>
+  <ul>
+    <li><strong>Aucune citation inventée.</strong> Aucune parole n'est prêtée à Bart De Wever, Georges-Louis Bouchez, Conner Rousseau, Vincent Van Peteghem ou Maxime Prévot. Les positions sont celles des partis, publiques et sourcées.</li>
+    <li><strong>Aucun logo, aucune caricature.</strong> Les partis sont désignés par leur nom et une couleur.</li>
+    <li><strong>Aucun chiffre sans provenance.</strong> Si nous ne savons pas, la mesure est marquée « non chiffrée » plutôt que dotée d'une estimation de confort.</li>
+    <li><strong>Aucune collecte.</strong> Ni compte, ni serveur, ni traceur, ni cookie, ni mesure d'audience. Les parties restent dans la base locale de votre navigateur.</li>
+  </ul>
+
+  <h2>6. Limites connues</h2>
+  <ul>
+    <li>Le modèle est <strong>additif et statique</strong>. Il ignore les interactions macroéconomiques, l'effet récessif d'un ajustement rapide sur les recettes, et les réactions de comportement autres que celles signalées comme effets retour.</li>
+    <li>Les <strong>263 mesures ne couvrent pas tout</strong> le champ des possibles, et le corpus mélange des mesures opérationnelles et des orientations de principe.</li>
+    <li>La <strong>cohésion d'un parti</strong> n'existe pas comme grandeur mesurable. C'est une métaphore de jeu, utile pour rendre sensible une contrainte réelle, et rien de plus.</li>
+    <li>Les montants sont exprimés à <strong>prix courants</strong>, sans actualisation.</li>
+    <li>Les <strong>traductions françaises</strong> des 125 intitulés néerlandais sont les nôtres. L'intitulé original figure sur chaque fiche, avec son attribut de langue.</li>
+  </ul>
+
+  <h2>7. Sources</h2>
+  <ul>
+    <li>Bureau fédéral du Plan, <a href="https://www.plan.be/sites/default/files/documents/REP_BUDGET2027_13320_FR.pdf" rel="noopener"><cite>Options de politiques pour l'élaboration du budget 2027</cite></a> et son classeur de données, 1<sup>er</sup> juin 2026 — <strong>source primaire</strong>.</li>
+    <li>SPF BOSA, <a href="https://bosa.belgium.be/fr/themes/budget-et-comptabilite/budget-federal/acteurs-budgetaires-federaux/rapports-du-comite-de" rel="noopener">rapports du Comité de monitoring</a>, en particulier celui du 6 juillet 2026.</li>
+    <li>Banque nationale de Belgique, <a href="https://www.nbb.be/fr/actualites-et-evenements/actualites/blog/attention-la-boule-de-neige?language=fr" rel="noopener">Attention à la boule de neige</a>.</li>
+    <li>Agence fédérale de la Dette, <a href="https://www.debtagency.be/fr/datafederalstaterating" rel="noopener">notation de l'État fédéral</a>.</li>
+    <li>Conseil supérieur des Finances, <a href="https://conseilsuperieurdesfinances.be/fr/publication/avis-sur-la-repartition-du-plan-budgetaire-et-structurel-moyen-terme-que-la-belgique" rel="noopener">avis sur la répartition du plan budgétaire et structurel à moyen terme</a>.</li>
+    <li>Commission européenne, <a href="https://belgium.representation.ec.europa.eu/actualites-et-evenements/actualites/les-previsions-economiques-du-printemps-2026-font-etat-dun-ralentissement-de-la-croissance-en-2026-05-21_fr" rel="noopener">prévisions économiques du printemps 2026 pour la Belgique</a>.</li>
+    <li>Ouaisfieu, <cite>Trouver 23 milliards — analyse critique du budget fédéral belge</cite>, 13 septembre 2026, et <a href="https://ouaisfieu.github.io/arizona/budget/" rel="noopener">Le Budget Arizona, dossier chiffré 2025-2029</a>.</li>
+  </ul>
+
+  <aside class="appel">
+    <h2>Une erreur, une objection&nbsp;?</h2>
+    <p>Les données brutes, la couche éditoriale et le code du modèle sont dans le dépôt, en fichiers lisibles. Une correction argumentée est une contribution, pas une critique.</p>
+    <p style="margin:0"><a class="bouton" href="https://github.com/ouaisfieu/sims" rel="noopener">Le dépôt et les données</a> <a class="bouton bouton--discret" href="../assets/data/corpus.json" download>Télécharger corpus.json</a></p>
+  </aside>
+</article>
+</main>
+
+<footer class="pied enveloppe">
+  <p><strong>Ouaisfieu · sims</strong> — projet citoyen de veille et de contre-analyse des politiques publiques belges. Code et données ouverts, aucun traceur.</p>
+  <p>Ce site n'émane ni du Bureau fédéral du Plan, ni d'aucune institution publique.</p>
+</footer>
+</body>
+</html>

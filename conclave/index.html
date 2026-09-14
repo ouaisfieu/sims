@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fumée blanche — simulez le conclave budgétaire belge | Ouaisfieu</title>
+<meta name="description" content="Trouvez 10 milliards sans faire tomber le gouvernement. Un simulateur du conclave budgétaire fédéral belge, bâti sur les 263 mesures chiffrées par le Bureau fédéral du Plan et sur les lignes rouges réelles des cinq partis de la coalition Arizona.">
+<link rel="canonical" href="https://ouaisfieu.github.io/sims/conclave/">
+<link rel="alternate" hreflang="fr" href="https://ouaisfieu.github.io/sims/conclave/">
+<link rel="alternate" hreflang="x-default" href="https://ouaisfieu.github.io/sims/conclave/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ouaisfieu · sims">
+<meta property="og:locale" content="fr_BE">
+<meta property="og:title" content="Fumée blanche — simulez le conclave budgétaire belge">
+<meta property="og:description" content="Six nuits, cinq partis, dix milliards. Vous gagnez en septembre. La Cour des comptes vous répond en mars.">
+<meta property="og:url" content="https://ouaisfieu.github.io/sims/conclave/">
+<meta property="og:image" content="https://ouaisfieu.github.io/sims/assets/img/partage.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Fumée blanche, simulateur du conclave budgétaire belge">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="theme-color" content="#0A0C11">
+<meta name="author" content="Ouaisfieu">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="keywords" content="conclave budgétaire, budget fédéral belge, coalition Arizona, Bureau fédéral du Plan, simulateur budgétaire, lignes rouges, déficit public Belgique">
+
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="../assets/img/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/icone-180.png">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/jeu.css">
+<link rel="preload" href="../assets/data/jeu.json" as="fetch" type="application/json" crossorigin>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["WebApplication", "Game"],
+      "@id": "https://ouaisfieu.github.io/sims/conclave/#app",
+      "name": "Fumée blanche",
+      "alternateName": "Simulateur du conclave budgétaire belge",
+      "url": "https://ouaisfieu.github.io/sims/conclave/",
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Serious game",
+      "operatingSystem": "Tout navigateur web moderne",
+      "browserRequirements": "JavaScript activé",
+      "inLanguage": "fr-BE",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+      "about": [
+        { "@type": "Thing", "name": "Budget fédéral belge" },
+        { "@type": "Thing", "name": "Conclave budgétaire 2026" },
+        { "@type": "Thing", "name": "Coalition Arizona" }
+      ],
+      "description": "Simulateur du conclave budgétaire fédéral belge de l'automne 2026. Le joueur compose un effort budgétaire à partir des mesures inventoriées par le Bureau fédéral du Plan, sous la contrainte des lignes rouges des cinq partis de la coalition, puis voit son accord confronté au Comité de monitoring et à la Cour des comptes.",
+      "creator": { "@type": "Organization", "@id": "https://ouaisfieu.github.io/#org" },
+      "isBasedOn": { "@id": "https://ouaisfieu.github.io/sims/conclave/mesures/#dataset" },
+      "featureList": [
+        "Fonctionne hors ligne",
+        "Installable comme application",
+        "Aucun compte, aucun traceur, aucune donnée envoyée",
+        "Partage du budget par lien reproductible"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ouaisfieu.github.io/#org",
+      "name": "Ouaisfieu",
+      "url": "https://ouaisfieu.github.io/",
+      "description": "Projet citoyen de veille et de contre-analyse des politiques publiques belges."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "sims", "item": "https://ouaisfieu.github.io/sims/" },
+        { "@type": "ListItem", "position": 2, "name": "Fumée blanche", "item": "https://ouaisfieu.github.io/sims/conclave/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ouaisfieu.github.io/sims/conclave/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce que le conclave budgétaire belge ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Le conclave budgétaire désigne la négociation à huis clos par laquelle le gouvernement fédéral belge arrête son budget. Celui de l'automne 2026 porte sur un effort de dix milliards d'euros à l'horizon 2029, engagement pris par le gouvernement De Wever le 10 juillet 2026, alors que le Comité de monitoring fixait un plancher à 7,7 milliards et la Banque nationale un minimum à onze." }
+        },
+        {
+          "@type": "Question",
+          "name": "D'où viennent les mesures et les montants du simulateur ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Les 263 mesures proviennent du classeur annexé au rapport du Bureau fédéral du Plan « Options de politiques pour l'élaboration du budget 2027 », publié le 1er juin 2026 à la demande du ministre du Budget avec plus de quarante experts. Trente-neuf d'entre elles y sont chiffrées, sur la base des chiffrages électoraux de 2024. Les autres montants proviennent de l'analyse Ouaisfieu et sont signalés comme tels sur chaque carte." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les lignes rouges des partis de la coalition Arizona ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Le MR pose une ligne rouge absolue sur la TVA et refuse toute hausse d'impôt. La N-VA refuse la fiscalité du patrimoine. Vooruit refuse les coupes dans la norme de croissance des soins de santé et dans les allocations, et exige une contribution patrimoniale. Le CD&V protège la santé et les familles, et ne vise en pratique que sept milliards. Les Engagés n'ont pas explicité de ligne rouge et disposent de la plus grande marge de manœuvre." }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi le montant annoncé diffère-t-il du montant réel ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Parce que c'est ce qui arrive aux accords budgétaires belges. Effets retour non constatés, chiffrages surestimés, charges transférées aux CPAS et aux entités fédérées, mesures annulées par le Conseil d'État, doubles comptages : la Cour des comptes a documenté près d'un milliard d'écart annuel sur le seul accord de novembre 2025. Le simulateur applique ces décotes au moment du rapport du Comité de monitoring de mars 2027." }
+        },
+        {
+          "@type": "Question",
+          "name": "Le simulateur collecte-t-il des données personnelles ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Non. Il n'y a ni compte, ni serveur, ni traceur, ni cookie. Les parties sont enregistrées dans la base de données locale du navigateur et n'en sortent jamais. Un budget partagé voyage entièrement dans l'adresse du lien." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="saut-contenu" href="#contenu">Aller au contenu</a>
+
+<div class="appli" id="appli">
+
+  <!-- ===================== ACCUEIL ===================== -->
+  <section class="ecran accueil" id="ecran-accueil" data-actif aria-labelledby="titre-principal">
+    <svg class="fumee" viewBox="0 0 120 200" aria-hidden="true" focusable="false">
+      <g fill="currentColor">
+        <circle cx="60" cy="176" r="9"/><circle cx="66" cy="156" r="12"/>
+        <circle cx="53" cy="136" r="15"/><circle cx="69" cy="114" r="18"/><circle cx="54" cy="122" r="11"/>
+        <circle cx="52" cy="90"  r="20"/><circle cx="72" cy="66"  r="22"/><circle cx="52" cy="76" r="13"/>
+        <circle cx="45" cy="44"  r="19"/><circle cx="63" cy="54"  r="12"/>
+        <circle cx="68" cy="24"  r="15"/><circle cx="55" cy="12"  r="10"/>
+      </g>
+    </svg>
+    <p class="accueil__sur">Conclave budgétaire · automne 2026</p>
+    <h1 id="titre-principal">Fumée blanche</h1>
+    <p class="accueil__sous">Six nuits. Cinq partis. Dix milliards.<br>Vous gagnez en septembre.<br><strong>La Cour des comptes vous répond en mars.</strong></p>
+
+    <div class="modes" id="modes" role="group" aria-label="Choisissez un mode"></div>
+
+    <p style="margin-top:20px"><button class="bouton bouton--premier" id="commencer" type="button">Déposez votre téléphone</button></p>
+    <p class="petit sourdine accueil__note">Maxime Prévot a réellement proposé de négocier sans téléphones. Vous, vous jouez sur le vôtre.</p>
+
+    <p class="petit" style="margin-top:6px">
+      <button class="lien-action" id="reprendre" type="button" hidden>Reprendre la partie en cours</button>
+      <button class="lien-action" id="entrer-code" type="button">Entrer un code</button>
+    </p>
+    <p class="codes-actifs petit" id="codes-actifs" hidden></p>
+
+    <!-- ------- contenu de fond, lu par les moteurs et par qui ne joue pas ------- -->
+    <main id="contenu" class="enveloppe" style="text-align:left;margin-top:54px">
+      <h2>Un exercice budgétaire, avec les vraies contraintes</h2>
+      <p>L'automne 2026 met le gouvernement fédéral belge devant un écart qu'il n'a pas réduit depuis dix-neuf mois. L'accord de gouvernement du 31 janvier 2025 annonçait un effort de <strong>23 milliards d'euros</strong> sur la législature. Le Comité de monitoring a fixé, le 6 juillet 2026, un plancher résiduel de 7,7 milliards à l'horizon 2029 ; le gouvernement s'est engagé sur 10 milliards le 10 juillet ; la Banque nationale parle d'au moins 11.</p>
+      <p>Le matériau technique pour y arriver existe. Le Bureau fédéral du Plan a publié le 1<sup>er</sup> juin 2026, à la demande du ministre du Budget, un inventaire de <a href="mesures/">plus de 250 mesures</a>, dont 39 chiffrées. Le problème n'est pas l'absence d'options. C'est que <strong>la somme des lignes rouges des cinq partis excède le montant à trouver</strong>.</p>
+
+      <h2>Comment on joue</h2>
+      <ol>
+        <li>Chaque nuit, une main de mesures se présente. Vous en adoptez trois au plus.</li>
+        <li>Chaque adoption déplace le compteur, et déplace les cinq jauges de cohésion. Un parti à zéro claque la porte, et le gouvernement tombe.</li>
+        <li>Les cartes de méthode ne rapportent pas un euro. Elles déterminent la part de votre annonce qui survivra.</li>
+        <li>Une fois l'objectif atteint, vous scellez l'accord. L'épilogue se joue en quatre actes, du 13 octobre 2026 au verdict des agences de notation.</li>
+      </ol>
+
+      <h2>Deux compteurs, et c'est tout le sujet</h2>
+      <p>Le simulateur tient deux totaux. Le <strong>montant annoncé</strong> est celui que vous présentez le 13 octobre. Le <strong>montant réel</strong> est celui que le Comité de monitoring retrouvera en mars 2027, une fois retirés les effets retour non constatés, les chiffrages surestimés, les charges transférées aux CPAS et aux entités fédérées, les mesures annulées après avis du Conseil d'État et les doubles comptages. Sur le seul accord de novembre 2025, la Cour des comptes a documenté près d'un milliard d'écart annuel.</p>
+      <p>Votre score final n'est pas votre total. C'est l'écart entre ce que vous avez annoncé et ce qui s'est réalisé.</p>
+
+      <h2>D'où viennent les chiffres</h2>
+      <p>Chaque carte porte la provenance de son montant : <span class="etiquette etiquette--bfp">chiffré BFP</span> pour les 39 mesures chiffrées par le Bureau fédéral du Plan, <span class="etiquette etiquette--analyse">analyse</span> pour les montants issus du dossier <cite>Trouver 23 milliards</cite>. La faisabilité politique, la robustesse du chiffrage et les réactions des partis relèvent d'un jugement éditorial assumé, documenté sur la <a href="methodologie.html">page méthodologie</a>. Aucune citation n'est prêtée à une personnalité politique : les positions sont celles, publiques et sourcées, des partis.</p>
+
+      <h2>Questions fréquentes</h2>
+      <details><summary>Qu'est-ce qu'un conclave budgétaire&nbsp;?</summary><p>La négociation à huis clos par laquelle le gouvernement fédéral arrête son budget. Le terme est emprunté à l'élection pontificale, et la métaphore va jusqu'au bout : on s'enferme, on négocie la nuit, et on attend la fumée blanche.</p></details>
+      <details><summary>Pourquoi mon accord se fait-il démonter en mars&nbsp;?</summary><p>Parce que c'est ce qui est arrivé aux trois derniers. Les effets retour, les rendements surestimés et les transferts de charge vers les CPAS et les Régions ne résistent pas au contrôle. La norme européenne de dépenses nettes étant consolidée, une économie fédérale qui devient une dépense communale ne réduit l'écart d'aucun euro.</p></details>
+      <details><summary>Mes données sortent-elles de mon téléphone&nbsp;?</summary><p>Non. Ni compte, ni serveur, ni traceur, ni cookie. Vos parties sont conservées dans la base locale de votre navigateur. Un budget partagé voyage entièrement dans l'adresse du lien.</p></details>
+
+      <h2>Les combinaisons qui passent</h2>
+      <p>Nous avons résolu le jeu par recherche exhaustive. Vingt-trois milliards sans franchir une seule ligne rouge : c'est possible à l'affichage, et il en reste un quart. La page <a href="cheatcodes/">Cheatcodes</a> publie les huit combinaisons calculées, rejouables d'un lien, le coût en cohésion de chaque milliard, et six codes secrets à taper ici même.</p>
+
+      <p style="margin-top:26px"><a class="bouton" href="mesures/">Parcourir les 263 mesures</a> <a class="bouton bouton--discret" href="cheatcodes/">Cheatcodes</a> <a class="bouton bouton--discret" href="methodologie.html">Méthodologie</a></p>
+
+      <footer class="pied">
+        <p><strong>Ouaisfieu · sims</strong> — projet citoyen de veille et de contre-analyse des politiques publiques belges. Code et données ouverts.</p>
+        <p>Source primaire : Bureau fédéral du Plan, <a href="https://www.plan.be/sites/default/files/documents/REP_BUDGET2027_13320_FR.pdf" rel="noopener">Options de politiques pour l'élaboration du budget 2027</a>, 1<sup>er</sup> juin 2026. Ce simulateur n'émane ni du Bureau fédéral du Plan, ni d'aucune institution publique.</p>
+      </footer>
+    </main>
+  </section>
+
+  <!-- ===================== CONCLAVE ===================== -->
+  <section class="ecran" id="ecran-jeu" aria-labelledby="hud-titre">
+    <header class="hud">
+      <h2 id="hud-titre" class="visuellement-cache" style="position:absolute;left:-9999px">Tableau de bord du conclave</h2>
+      <div class="hud__ligne">
+        <span class="hud__nuit">Nuit <span id="nuit-num">1</span>/<span id="nuit-total">6</span>
+          <span class="hud__actions" id="jetons" role="img" aria-label="Actions restantes"></span>
+        </span>
+        <button class="lien-action" id="voir-etat" type="button" aria-label="Détail des indicateurs">détail</button>
+      </div>
+      <p class="compteur" style="margin:0">
+        <span class="compteur__val chiffre" id="total">0 M€</span>
+        <span class="compteur__cible chiffre">/ <span id="objectif">10 Md€</span></span>
+        <span class="compteur__reel chiffre" id="reel-direct" hidden></span>
+      </p>
+      <div class="jauge"><div class="jauge__part" id="jauge-total" style="width:0%"></div></div>
+      <div class="partis" id="partis"></div>
+      <p class="mesures-vives" style="margin:8px 0 0">
+        <span>Crédibilité <b class="chiffre" id="credibilite">50</b></span>
+        <span>Tension sociale <b class="chiffre" id="rue">30</b></span>
+        <span>Intérêts <b class="chiffre" id="interets">0 €</b></span>
+      </p>
+    </header>
+
+    <div class="table-jeu">
+      <div class="pile" id="pile"></div>
+    </div>
+
+    <nav class="actions" aria-label="Actions de jeu">
+      <div class="actions__ligne">
+        <button class="rond rond--non" id="btn-ecarter" type="button" aria-label="Écarter cette mesure">✕</button>
+        <button class="rond" id="btn-detail" type="button" aria-label="Voir le détail de la mesure">i</button>
+        <button class="rond rond--oui" id="btn-adopter" type="button" aria-label="Adopter cette mesure">✓</button>
+      </div>
+      <div class="actions__secondaire">
+        <button class="lien-action" id="btn-table" type="button">La table <b id="nb-table">0</b></button>
+        <button class="lien-action" id="btn-bilaterale" type="button">Bilatérale</button>
+        <button class="lien-action" id="btn-nuit" type="button">Clore la nuit</button>
+        <button class="lien-action" id="btn-sceller" type="button" hidden><b>Sceller l'accord</b></button>
+      </div>
+    </nav>
+  </section>
+
+  <!-- ===================== ÉVÉNEMENT ===================== -->
+  <section class="ecran evenement" id="ecran-evenement" aria-labelledby="ev-titre">
+    <div class="evenement__boite">
+      <p class="evenement__date" id="ev-date">Entre deux nuits</p>
+      <h2 id="ev-titre">—</h2>
+      <p class="evenement__texte" id="ev-texte"></p>
+      <p class="evenement__csq" id="ev-csq"></p>
+      <button class="bouton bouton--premier bouton--large" id="ev-suite" type="button">Retourner à la table</button>
+    </div>
+  </section>
+
+  <!-- ===================== FIN ===================== -->
+  <section class="ecran fin" id="ecran-fin" aria-labelledby="fin-titre">
+    <div class="enveloppe" id="fin-contenu"></div>
+  </section>
+</div>
+
+<!-- ===================== PANNEAU ===================== -->
+<div class="panneau" id="panneau" hidden role="dialog" aria-modal="true" aria-labelledby="panneau-titre">
+  <div class="panneau__boite">
+    <div class="panneau__poignee" aria-hidden="true"></div>
+    <div id="panneau-contenu"></div>
+  </div>
+</div>
+
+<noscript>
+  <div class="enveloppe" style="padding-block:28px">
+    <p style="background:#241E0E;border:1px solid #5C4A1E;border-radius:12px;padding:14px 16px">
+      Le simulateur a besoin de JavaScript. L'<a href="mesures/">encyclopédie des 263 mesures</a> et la <a href="methodologie.html">méthodologie</a> restent entièrement lisibles sans.
+    </p>
+  </div>
+</noscript>
+
+<script type="module" src="../assets/js/app.js"></script>
+</body>
+</html>

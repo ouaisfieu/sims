@@ -1,0 +1,27 @@
+{
+  "name": "Fumée blanche — conclave budgétaire belge",
+  "short_name": "Fumée blanche",
+  "description": "Trouvez 10 milliards sans faire tomber le gouvernement. Simulateur du conclave budgétaire fédéral belge, bâti sur les mesures chiffrées du Bureau fédéral du Plan.",
+  "lang": "fr-BE",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "../",
+  "id": "/sims/conclave/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0C11",
+  "theme_color": "#0A0C11",
+  "categories": ["education", "news", "games"],
+  "icons": [
+    { "src": "../assets/img/icone.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "../assets/img/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "../assets/img/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "../assets/img/icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Nouveau conclave", "short_name": "Jouer", "url": "./?nouveau=1", "icons": [{ "src": "../assets/img/icone-192.png", "sizes": "192x192" }] },
+    { "name": "Les 263 mesures", "short_name": "Mesures", "url": "./mesures/" },
+    { "name": "Cheatcodes", "short_name": "Codes", "url": "./cheatcodes/" },
+    { "name": "Méthodologie", "short_name": "Méthode", "url": "./methodologie.html" }
+  ]
+}
