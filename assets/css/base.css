@@ -1,0 +1,172 @@
+/* ============================================================
+   Ouaisfieu / sims — socle commun
+   Nuit du conclave : encre profonde, lumiere de salle, fumee.
+   ============================================================ */
+
+:root {
+  --encre:      #0A0C11;
+  --encre-2:    #12161F;
+  --encre-3:    #1B212D;
+  --encre-4:    #27303F;
+  --trait:      #333D4E;
+
+  --craie:      #F2EFE8;
+  --craie-2:    #B9C0CC;
+  --craie-3:    #7A8494;
+
+  --or:         #E9B448;
+  --or-sombre:  #7A5E1E;
+  --rouge:      #E24B3B;
+  --rouge-nuit: #3A1512;
+  --vert:       #45B58F;
+  --vert-nuit:  #10281F;
+  --bleu:       #5B9DD9;
+
+  --nva:     #F5A623;
+  --mr:      #4B8FE0;
+  --vooruit: #E8443A;
+  --cdv:     #F58220;
+  --le:      #00A9A5;
+
+  --r-s: 8px;
+  --r-m: 14px;
+  --r-l: 22px;
+
+  --pas: 4px;
+  --gouttiere: 18px;
+  --max: 660px;
+
+  --texte: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --chiffres: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --ombre-m: 0 4px 18px rgba(0,0,0,.38);
+  --ombre-l: 0 18px 48px rgba(0,0,0,.55);
+
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--encre);
+  color: var(--craie);
+  font-family: var(--texte);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+  overflow-wrap: break-word;
+}
+
+img, svg { max-width: 100%; height: auto; }
+
+a { color: var(--or); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { color: #F5CD7C; }
+
+h1, h2, h3, h4 {
+  line-height: 1.15;
+  letter-spacing: -0.022em;
+  margin: 0 0 .5em;
+  font-weight: 650;
+  text-wrap: balance;
+}
+h1 { font-size: clamp(1.7rem, 6vw, 2.6rem); }
+h2 { font-size: clamp(1.3rem, 4.4vw, 1.75rem); }
+h3 { font-size: 1.1rem; }
+p  { margin: 0 0 1em; text-wrap: pretty; }
+
+small, .petit { font-size: .8125rem; line-height: 1.5; }
+.sourdine { color: var(--craie-3); }
+.positif  { color: var(--vert); }
+.negatif  { color: var(--rouge); }
+.douce    { color: var(--craie-2); }
+
+.chiffre {
+  font-family: var(--chiffres);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "ss01" 1;
+  letter-spacing: -0.012em;
+}
+
+.enveloppe {
+  width: 100%;
+  max-width: var(--max);
+  margin-inline: auto;
+  padding-inline: var(--gouttiere);
+}
+
+.saut-contenu {
+  position: absolute; left: -9999px;
+  background: var(--or); color: var(--encre);
+  padding: 10px 16px; border-radius: 0 0 var(--r-s) 0; z-index: 999;
+  font-weight: 600;
+}
+.saut-contenu:focus { left: 0; top: 0; }
+
+:where(a, button, [tabindex], input, select, summary):focus-visible {
+  outline: 2px solid var(--or);
+  outline-offset: 2px;
+  border-radius: var(--r-s);
+}
+
+/* ---------- boutons ---------- */
+.bouton {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: .5em;
+  min-height: 48px;
+  padding: 12px 22px;
+  border: 1px solid var(--trait);
+  border-radius: 999px;
+  background: var(--encre-3);
+  color: var(--craie);
+  font: inherit; font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background .16s, border-color .16s, transform .08s;
+}
+.bouton:hover { background: var(--encre-4); border-color: var(--craie-3); }
+.bouton:active { transform: translateY(1px); }
+.bouton[disabled] { opacity: .4; cursor: not-allowed; }
+.bouton--premier {
+  background: var(--or); border-color: var(--or); color: #1A1204;
+}
+.bouton--premier:hover { background: #F5CD7C; border-color: #F5CD7C; }
+.bouton--discret { background: transparent; }
+.bouton--large { width: 100%; }
+
+/* ---------- etiquettes ---------- */
+.etiquette {
+  display: inline-flex; align-items: center; gap: .35em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--encre-3);
+  border: 1px solid var(--trait);
+  font-size: .75rem; font-weight: 600;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.etiquette--bfp    { background: var(--vert-nuit); border-color: #23594A; color: #7FD9B6; }
+.etiquette--analyse{ background: #22241A; border-color: #5C5A2B; color: var(--or); }
+.etiquette--rouge  { background: var(--rouge-nuit); border-color: #7A2B22; color: #F59084; }
+
+/* ---------- pied ---------- */
+.pied {
+  margin-top: 56px; padding: 28px 0 40px;
+  border-top: 1px solid var(--encre-3);
+  color: var(--craie-3); font-size: .8125rem;
+}
+.pied a { color: var(--craie-2); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

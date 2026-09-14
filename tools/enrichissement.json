@@ -1,0 +1,99 @@
+{
+ "_lisezMoi": [
+  "COUCHE EDITORIALE — assumée comme telle.",
+  "Le classeur du Bureau fédéral du Plan fournit : un intitulé, une catégorie, des modalités,",
+  "un montant d'impulsion budgétaire annuelle (pour 39 mesures sur 263) et le parti dont le",
+  "chiffrage électoral 2024 sert de référence. Il ne fournit NI le sens de la mesure (améliore",
+  "ou dégrade le solde), NI sa faisabilité politique, NI la robustesse de son chiffrage.",
+  "Tout ce qui figure dans ce fichier relève donc d'un jugement éditorial documenté, et non",
+  "du Bureau du Plan. Voir /conclave/méthodologie.html.",
+  "",
+  "sens         : +1 améliore le solde, -1 le dégrade. sensCertitude dit si le libellé suffit à trancher.",
+  "crédibilité  : 1 à 5, robustesse du chiffrage. Fixe la part du montant qui survit à mars 2027.",
+  "délai        : immédiat | court (1-2 ans) | moyen (2-3 ans) | long (4-6 ans)",
+  "risqueJuridique : 0 à 3, probabilité d'un avis négatif du Conseil d'État ou d'un recours.",
+  "transfertE2  : 0 à 1, part de l'économie fédérale qui retombe sur les CPAS, Régions, Communautés.",
+  "effetRetour  : true si le rendement suppose un changement de comportement (emploi, consommation).",
+  "structurel   : false pour les one-shots, ignores par la Commission et les agences.",
+  "impactSocial : -3 (frappe les bas revenus) a +3 (frappe les hauts patrimoines).",
+  "réactions    : -3 (rupture) a +3 (trophée), pour les cinq partis de la coalition Arizona.",
+  "ligneRouge   : partis pour lesquels la mesure est une ligne rouge documentée publiquement.",
+  "chevauche    : mesures dont l'assiette recoupe celle-ci. Le cumul naïf produit un double comptage."
+ ],
+ "partis": {
+  "nva": {
+   "nom": "N-VA",
+   "nomLong": "Nieuw-Vlaamse Alliantie",
+   "couleur": "#F5A623",
+   "figure": "Bart De Wever, Premier ministre",
+   "position": "Le problème est un problème de dépenses, pas de recettes.",
+   "ligneRouge": "La fiscalité du patrimoine.",
+   "marge": "Peut céder sur les plus-values si la mesure est présentée comme anti-abus.",
+   "source": "Analyse Ouaisfieu, Trouver 23 milliards, 13/09/2026, section 6.1"
+  },
+  "mr": {
+   "nom": "MR",
+   "nomLong": "Mouvement Réformateur",
+   "couleur": "#1E5AA8",
+   "figure": "Georges-Louis Bouchez, David Clarinval",
+   "position": "16 à 17 milliards d'économies, aucun impôt nouveau.",
+   "ligneRouge": "La TVA, qualifiée d'attaque inacceptable.",
+   "marge": "Faible publiquement. Le point de rupture réel porte sur les niches fiscales.",
+   "source": "La Libre, 06/09/2026"
+  },
+  "vooruit": {
+   "nom": "Vooruit",
+   "nomLong": "Vooruit",
+   "couleur": "#E8443A",
+   "figure": "Conner Rousseau",
+   "position": "Une contribution patrimoniale, et pas de coupes sociales.",
+   "ligneRouge": "La norme de croissance des soins de santé et les allocations.",
+   "marge": "Affaibli dans les sondages. A déjà cédé sur le chômage.",
+   "source": "Analyse Ouaisfieu, section 6.1"
+  },
+  "cdv": {
+   "nom": "CD&V",
+   "nomLong": "Christen-Democratisch en Vlaams",
+   "couleur": "#F58220",
+   "figure": "Vincent Van Peteghem, ministre du Budget",
+   "position": "Environ 7 milliards, par des mesures de long terme.",
+   "ligneRouge": "La santé et les familles.",
+   "marge": "Position de médiateur. Porte le coût institutionnel d'un échec.",
+   "source": "Analyse Ouaisfieu, section 6.1"
+  },
+  "le": {
+   "nom": "Les Engagés",
+   "nomLong": "Les Engagés",
+   "couleur": "#00A9A5",
+   "figure": "Maxime Prévot",
+   "position": "Négocier l'esprit ouvert. A proposé un conclave sans téléphones.",
+   "ligneRouge": "Non explicitée publiquement.",
+   "marge": "La plus grande marge de manœuvre des cinq.",
+   "source": "DH, 03/09/2026"
+  }
+ },
+ "bareme": {
+  "objectifDefaut": 10000,
+  "objectifHonnete": 23000,
+  "cohesionDepart": 70,
+  "credibiliteDepart": 50,
+  "rueDepart": 30,
+  "nuits": 6,
+  "actionsParNuit": 3,
+  "impactReaction": 5,
+  "impactLigneRouge": 11,
+  "interetsParAn": 12200,
+  "interets2030": 20900,
+  "facteurCredibilite": [
+   0.45,
+   0.6,
+   0.75,
+   0.88,
+   0.97
+  ],
+  "penaliteEffetRetour": 0.35,
+  "penaliteChevauchement": 0.5,
+  "repriseNuit": 4,
+  "seuilReprise": 58
+ }
+}

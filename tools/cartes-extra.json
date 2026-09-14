@@ -1,0 +1,763 @@
+{
+ "_lisezMoi": [
+  "Cartes ancrées sur une mesure réelle du corpus du Bureau du Plan que le classeur ne chiffre pas.",
+  "Le montant provient alors de l'analyse Ouaisfieu Trouver 23 milliards (13/09/2026), partie IV,",
+  "elle-même adossée aux fourchettes du Bureau du Plan, de la Cour des comptes et du Conseil",
+  "supérieur des Finances. La provenance est affichée sur chaque carte : jamais un chiffre",
+  "d'analyse n'est présenté comme un chiffrage officiel.",
+  "Les cartes dites méthode ne rapportent pas d'euros. Elles augmentent la part du montant",
+  "annonce qui survivra au Comité de monitoring de mars 2027."
+ ],
+ "mesures": {
+  "BFP-082": {
+   "jouable": true,
+   "titreJeu": "Refondre les taux de TVA",
+   "famille": "tva",
+   "type": "recette",
+   "montant": 3000,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "haute",
+   "credibilite": 5,
+   "delai": "court",
+   "risqueJuridique": 2,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": -2,
+   "reactions": {
+    "nva": 1,
+    "mr": -3,
+    "vooruit": -1,
+    "cdv": 0,
+    "le": 0
+   },
+   "ligneRouge": [
+    "mr"
+   ],
+   "chevauche": [
+    "BFP-222",
+    "BFP-261"
+   ],
+   "note": "Un relèvement calibré rapportant un demi-point de PIB. C'est la mesure au meilleur rapport rendement sur incertitude de tout le corpus, et la ligne rouge absolue du MR, qualifiée d'attaque inacceptable en septembre 2026. Précédent a retenir : la réforme TVA du 1er mars 2026 a été retirée après un avis cinglant du Conseil d'État, ouvrant un trou de plusieurs centaines de millions dans un budget déjà voté."
+  },
+  "BFP-116": {
+   "jouable": true,
+   "titreJeu": "Raboter le coût de la fonction publique",
+   "famille": "fonction-publique",
+   "type": "depense",
+   "montant": 1200,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "haute",
+   "credibilite": 4,
+   "delai": "immediat",
+   "risqueJuridique": 0,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": -1,
+   "reactions": {
+    "nva": 2,
+    "mr": 3,
+    "vooruit": -1,
+    "cdv": 1,
+    "le": 0
+   },
+   "ligneRouge": [],
+   "chevauche": [
+    "BFP-096",
+    "BFP-097"
+   ],
+   "note": "Moins un virgule huit pour cent par an en cumulé sur les crédits de personnel et de fonctionnement, soit moins neuf pour cent sur la législature et cinq mille cinq cents a six mille équivalents temps plein. Instrument de trésorerie, pas de réforme : il affaiblit uniformément les administrations performantes et les autres, y compris les services de contrôle fiscal dont on attend par ailleurs des centaines de millions de recettes."
+  },
+  "BFP-144": {
+   "jouable": true,
+   "titreJeu": "Saut d'index généralisé",
+   "famille": "index",
+   "type": "depense",
+   "montant": 2400,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "haute",
+   "credibilite": 4,
+   "delai": "immediat",
+   "risqueJuridique": 2,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": false,
+   "impactSocial": -3,
+   "reactions": {
+    "nva": 2,
+    "mr": 3,
+    "vooruit": -3,
+    "cdv": -2,
+    "le": -2
+   },
+   "ligneRouge": [
+    "vooruit"
+   ],
+   "chevauche": [
+    "BFP-024",
+    "BFP-215"
+   ],
+   "note": "Rendement élevé et immédiat, mais pro-cyclique et temporaire : il rapporte beaucoup quand l'inflation est forte et peu quand elle est faible, soit l'inverse de ce qu'exige une stabilisation. Ne devrait pas être comptabilisé dans l'effort structurel au-delà de sa durée légale. Déclencheur syndical quasi certain."
+  },
+  "BFP-215": {
+   "jouable": true,
+   "titreJeu": "Prolonger le centim'index",
+   "famille": "index",
+   "type": "depense",
+   "montant": 883,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "moyenne",
+   "credibilite": 3,
+   "delai": "immediat",
+   "risqueJuridique": 2,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": false,
+   "impactSocial": -2,
+   "reactions": {
+    "nva": 2,
+    "mr": 2,
+    "vooruit": -2,
+    "cdv": -1,
+    "le": -1
+   },
+   "ligneRouge": [],
+   "chevauche": [
+    "BFP-144"
+   ],
+   "note": "Indexation plafonnée pour les rémunérations au-delà de quatre mille euros bruts. La mesure figure au corpus sous sa forme inverse, les interlocuteurs sociaux demandant son abandon : la jouer, c'est prolonger un dispositif contesté dont la reconduction au-delà de 2029 est improbable."
+  },
+  "BFP-089": {
+   "jouable": true,
+   "titreJeu": "Relever le ticket modérateur",
+   "famille": "sante",
+   "type": "depense",
+   "montant": 300,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "haute",
+   "credibilite": 3,
+   "delai": "court",
+   "risqueJuridique": 1,
+   "transfertE2": 0.25,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": -3,
+   "reactions": {
+    "nva": 1,
+    "mr": 1,
+    "vooruit": -3,
+    "cdv": -3,
+    "le": -2
+   },
+   "ligneRouge": [
+    "vooruit",
+    "cdv"
+   ],
+   "chevauche": [
+    "BFP-029",
+    "BFP-030"
+   ],
+   "note": "Rendement modeste, report de soins documenté et coûts différés. À écarter : trois cents millions affichés pour un coût sanitaire et politique sans commune mesure."
+  },
+  "BFP-245": {
+   "jouable": true,
+   "titreJeu": "Limiter les réductions de cotisations",
+   "famille": "emploi",
+   "type": "recette",
+   "montant": 500,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "haute",
+   "credibilite": 4,
+   "delai": "moyen",
+   "risqueJuridique": 1,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": 0,
+   "reactions": {
+    "nva": -1,
+    "mr": -3,
+    "vooruit": 1,
+    "cdv": -1,
+    "le": 0
+   },
+   "ligneRouge": [],
+   "chevauche": [
+    "BFP-207",
+    "BFP-011"
+   ],
+   "note": "Limitation progressive des réductions de cotisations patronales. Attention à la contradiction : le pays affiche déjà le coin fiscal sur le travail le plus élevé de l'OCDE, seul au-dessus de cinquante pour cent pour un isolé sans enfant."
+  },
+  "BFP-207": {
+   "jouable": true,
+   "titreJeu": "Déplafonner les cotisations patronales",
+   "famille": "emploi",
+   "type": "recette",
+   "montant": 400,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "moyenne",
+   "credibilite": 3,
+   "delai": "court",
+   "risqueJuridique": 1,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": 2,
+   "reactions": {
+    "nva": -2,
+    "mr": -3,
+    "vooruit": 2,
+    "cdv": 0,
+    "le": 0
+   },
+   "ligneRouge": [],
+   "chevauche": [
+    "BFP-245"
+   ],
+   "note": "Revenir sur l'exonération de cotisations patronales au-delà de trois cent quarante mille euros bruts par an."
+  },
+  "BFP-226": {
+   "jouable": true,
+   "titreJeu": "Bonus-malus actuariel sur les pensions",
+   "famille": "pensions",
+   "type": "depense",
+   "montant": 1500,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "moyenne",
+   "credibilite": 2,
+   "delai": "long",
+   "risqueJuridique": 2,
+   "transfertE2": 0,
+   "effetRetour": true,
+   "structurel": true,
+   "impactSocial": -1,
+   "reactions": {
+    "nva": 3,
+    "mr": 2,
+    "vooruit": -3,
+    "cdv": -2,
+    "le": -1
+   },
+   "ligneRouge": [
+    "vooruit"
+   ],
+   "chevauche": [
+    "BFP-024",
+    "BFP-027"
+   ],
+   "note": "Âge de la pension comme droit ouvert, assorti d'un bonus-malus actuariellement neutre et indexé sur l'espérance de vie en bonne santé. Le Bureau du Plan ne chiffre pas la mesure ; l'ordre de grandeur retenu est celui de l'analyse. Rendement lent, donc largement hors de l'horizon 2029."
+  },
+  "BFP-223": {
+   "jouable": true,
+   "titreJeu": "Offensive sur l'écart de TVA",
+   "famille": "fraude",
+   "type": "recette",
+   "montant": 750,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "haute",
+   "credibilite": 1,
+   "delai": "long",
+   "risqueJuridique": 0,
+   "transfertE2": 0,
+   "effetRetour": true,
+   "structurel": true,
+   "impactSocial": 1,
+   "reactions": {
+    "nva": 2,
+    "mr": 2,
+    "vooruit": 3,
+    "cdv": 2,
+    "le": 3
+   },
+   "ligneRouge": [],
+   "chevauche": [],
+   "note": "L'écart de TVA belge atteint 5,23 milliards, soit 12,3 pour cent de la TVA théorique et le vingt-et-unième rang sur vingt-sept dans l'Union, pour une moyenne de 9,5 pour cent. Le gisement est réel. Mais le récupérer exige des effectifs, des systèmes et du recouvrement, c'est-à-dire une dépense préalable, incompatible avec le rabot applique aux administrations fiscales. La Cour des comptes n'a validé aucun chiffrage tant qu'aucun plan opérationnel n'existe : c'est la mesure que tout le monde signe et que personne ne réalisé."
+  },
+  "BFP-249": {
+   "jouable": true,
+   "titreJeu": "Supprimer l'avantage du troisième pilier",
+   "famille": "niches",
+   "type": "recette",
+   "montant": 1000,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "moyenne",
+   "credibilite": 3,
+   "delai": "moyen",
+   "risqueJuridique": 1,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": 1,
+   "reactions": {
+    "nva": -2,
+    "mr": -3,
+    "vooruit": 1,
+    "cdv": -2,
+    "le": -1
+   },
+   "ligneRouge": [],
+   "chevauche": [
+    "BFP-087"
+   ],
+   "note": "Avantage fiscal de l'epargne-pension et des comptes d'épargne. Dépense fiscale massive, défendue par le secteur financier et par une large base d'épargnants : coût politique diffus mais très étendu."
+  },
+  "BFP-242": {
+   "jouable": true,
+   "titreJeu": "Relever la taxe sur les comptes-titres",
+   "famille": "patrimoine",
+   "type": "recette",
+   "montant": 1000,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "moyenne",
+   "credibilite": 3,
+   "delai": "immediat",
+   "risqueJuridique": 2,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": 3,
+   "reactions": {
+    "nva": -2,
+    "mr": -3,
+    "vooruit": 3,
+    "cdv": 0,
+    "le": 0
+   },
+   "ligneRouge": [
+    "mr"
+   ],
+   "chevauche": [
+    "BFP-007",
+    "BFP-005",
+    "BFP-014"
+   ],
+   "note": "Le véhicule le plus rapide pour une contribution patrimoniale, puisque la taxe existe déjà. La N-VA peut s'en accommoder plus aisement que d'un impôt sur la fortune nouveau, à condition qu'elle ne soit pas nommée ainsi."
+  },
+  "BFP-204": {
+   "jouable": true,
+   "titreJeu": "Durcir la taxe Caïman",
+   "famille": "fraude",
+   "type": "recette",
+   "montant": 250,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "moyenne",
+   "credibilite": 3,
+   "delai": "court",
+   "risqueJuridique": 2,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": 3,
+   "reactions": {
+    "nva": 0,
+    "mr": -1,
+    "vooruit": 2,
+    "cdv": 1,
+    "le": 2
+   },
+   "ligneRouge": [],
+   "chevauche": [],
+   "note": "Rendement faible, consensus large, valeur symbolique élevée. Le type de mesure qui apaise une négociation sans rien résoudre."
+  },
+  "BFP-234": {
+   "jouable": true,
+   "titreJeu": "Rabot de 10 % sur les subsides économiques",
+   "famille": "subsides",
+   "type": "depense",
+   "montant": 790,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "haute",
+   "credibilite": 4,
+   "delai": "immediat",
+   "risqueJuridique": 0,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": 0,
+   "reactions": {
+    "nva": 2,
+    "mr": -1,
+    "vooruit": 1,
+    "cdv": 1,
+    "le": 0
+   },
+   "ligneRouge": [],
+   "chevauche": [
+    "BFP-034",
+    "BFP-037"
+   ],
+   "note": "Rabot de dix pour cent applique en attendant un outil d'analyse du rendement social des subsides. Le corpus le présente lui-même comme une mesure d'attente : c'est l'aveu que l'évaluation n'existe pas."
+  },
+  "BFP-135": {
+   "jouable": true,
+   "titreJeu": "Réduire les dotations aux Communautés",
+   "famille": "transfert",
+   "type": "depense",
+   "montant": 3000,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "moyenne",
+   "credibilite": 4,
+   "delai": "moyen",
+   "risqueJuridique": 3,
+   "transfertE2": 1,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": -2,
+   "reactions": {
+    "nva": 3,
+    "mr": 1,
+    "vooruit": -1,
+    "cdv": 0,
+    "le": -2
+   },
+   "ligneRouge": [],
+   "chevauche": [
+    "BFP-136",
+    "BFP-137"
+   ],
+   "note": "Le piège parfait. Trois milliards d'économie fédérale, et pas un euro d'effort consolidé : la norme européenne de dépenses nettes porte sur l'ensemble des administrations publiques. Un dépassement wallon, bruxellois ou flamand compte comme un dépassement belge. Moody's a d'ailleurs dégradé la Wallonie et les deux Communautés cinq jours après l'État fédéral."
+  },
+  "BFP-152": {
+   "jouable": true,
+   "titreJeu": "Réorienter l'effort de défense",
+   "famille": "defense",
+   "type": "depense",
+   "montant": 1500,
+   "provenance": "analyse",
+   "sens": 1,
+   "sensCertitude": "faible",
+   "credibilite": 2,
+   "delai": "moyen",
+   "risqueJuridique": 1,
+   "transfertE2": 0,
+   "effetRetour": false,
+   "structurel": true,
+   "impactSocial": 0,
+   "reactions": {
+    "nva": -3,
+    "mr": -3,
+    "vooruit": 1,
+    "cdv": -1,
+    "le": -1
+   },
+   "ligneRouge": [],
+   "chevauche": [],
+   "note": "Ralentir la trajectoire vers deux pour cent du PIB dégage mécaniquement des moyens, et expose le pays à un manquement à son engagement OTAN au moment où l'horizon de 3,5 pour cent en 2035 est fixé. Le Comité de monitoring relève déjà un écart de 544 millions sur la cible de 2031."
+  }
+ },
+ "methode": {
+  "BFP-218": {
+   "titreJeu": "Spending reviews à la néerlandaise",
+   "gainCredibilite": 9,
+   "rue": 0,
+   "reactions": {
+    "nva": 2,
+    "mr": 2,
+    "vooruit": 1,
+    "cdv": 3,
+    "le": 2
+   },
+   "note": "Évaluation pluriannuelle par programme, avec scénarios de moins dix et moins vingt pour cent, publiés et débattus. La Belgique ne pratique pas cette revue systématique. Le retour sur investissement documenté dans les pays qui la pratiquent est de l'ordre de trois à cinq dixièmes de point de PIB sur cinq ans, soit deux a quatre milliards."
+  },
+  "BFP-219": {
+   "titreJeu": "Clauses de caducité sur les dépenses fiscales",
+   "gainCredibilite": 7,
+   "rue": 0,
+   "reactions": {
+    "nva": 2,
+    "mr": -1,
+    "vooruit": 2,
+    "cdv": 2,
+    "le": 2
+   },
+   "note": "Toute dépense fiscale fédérale s'eteint à une date fixée sauf reconduction explicite et évaluée. Renverse la charge de la preuve sur les niches, sans en supprimer aucune aujourd'hui."
+  },
+  "BFP-217": {
+   "titreJeu": "Norme de dépenses avec ancre de dette",
+   "gainCredibilite": 8,
+   "rue": 0,
+   "reactions": {
+    "nva": 3,
+    "mr": 2,
+    "vooruit": 0,
+    "cdv": 3,
+    "le": 2
+   },
+   "note": "Norme de dépenses primaires assortie d'une ancre de dette et d'une correction conjoncturelle. C'est la réponse directe à l'avertissement de l'Agence fédérale de la dette sur l'effet boule de neige autour de 2031."
+  },
+  "BFP-216": {
+   "titreJeu": "Professionnaliser le cycle budgétaire",
+   "gainCredibilite": 7,
+   "rue": 0,
+   "reactions": {
+    "nva": 2,
+    "mr": 2,
+    "vooruit": 1,
+    "cdv": 3,
+    "le": 2
+   },
+   "note": "Le cycle actuel est dysfonctionnel : le gouvernement décide en novembre, la Cour des comptes critique en février, le Comité de monitoring corrige en mars, la Banque nationale tranche, et l'écart est redécouvert en juillet. Aucune de ces institutions n'intervient avant l'arbitrage."
+  },
+  "BFP-258": {
+   "titreJeu": "Assumer des hypothèses macro réalistes",
+   "gainCredibilite": 8,
+   "rue": 0,
+   "reactions": {
+    "nva": 1,
+    "mr": 0,
+    "vooruit": 1,
+    "cdv": 2,
+    "le": 2
+   },
+   "note": "Le scénario implicite de l'accord de gouvernement supposait une croissance proche de un et demi pour cent. La Commission retient zéro virgule sept pour 2026 et zéro virgule neuf pour 2027. Tout le reste découle de cet écart."
+  },
+  "BFP-199": {
+   "titreJeu": "Appliquer les avis de la Cour des comptes",
+   "gainCredibilite": 6,
+   "rue": 0,
+   "reactions": {
+    "nva": 1,
+    "mr": 1,
+    "vooruit": 2,
+    "cdv": 2,
+    "le": 3
+   },
+   "note": "Le rapport du 18 février 2026 documentait déjà pres d'un milliard d'écart annuel sur quatre lignes de recettes. Les avis existent ; ce qui manque, c'est leur mise en œuvre."
+  },
+  "BFP-212": {
+   "titreJeu": "Mieux gérer les marchés publics",
+   "gainCredibilite": 5,
+   "rue": 0,
+   "reactions": {
+    "nva": 2,
+    "mr": 2,
+    "vooruit": 1,
+    "cdv": 2,
+    "le": 2
+   },
+   "note": "Gisement d'efficience classique, sans coût politique et sans rendement immédiatement chiffrable."
+  },
+  "BFP-224": {
+   "titreJeu": "Auditer les subsides au précompte",
+   "gainCredibilite": 7,
+   "rue": 0,
+   "reactions": {
+    "nva": 2,
+    "mr": -1,
+    "vooruit": 3,
+    "cdv": 1,
+    "le": 2
+   },
+   "note": "Auditer, plafonner et redessiner les subventions salariales et de précompte professionnel avant d'en couper. La différence entre une réforme et un rabot tient entièrement dans cet ordre des opérations."
+  },
+  "BFP-209": {
+   "titreJeu": "Forfaits par pathologie",
+   "gainCredibilite": 7,
+   "rue": -3,
+   "reactions": {
+    "nva": 2,
+    "mr": 2,
+    "vooruit": 2,
+    "cdv": 3,
+    "le": 3
+   },
+   "note": "Budgétiser par pathologie plutôt que raboter la norme. L'INAMI a démontré en 2026 qu'il savait produire 470 millions de corrections sectorielles documentées : c'est l'alternative crédible au rabot sur la santé."
+  },
+  "BFP-228": {
+   "titreJeu": "Supprimer les soins de faible valeur",
+   "gainCredibilite": 6,
+   "rue": -2,
+   "reactions": {
+    "nva": 2,
+    "mr": 2,
+    "vooruit": 1,
+    "cdv": 2,
+    "le": 2
+   },
+   "note": "Lier le remboursement à la preuve d'efficacité. Économie réelle, sans report de soins utiles."
+  },
+  "BFP-247": {
+   "titreJeu": "Coordonner les niveaux de pouvoir",
+   "gainCredibilite": 6,
+   "rue": 0,
+   "reactions": {
+    "nva": 1,
+    "mr": 1,
+    "vooruit": 1,
+    "cdv": 2,
+    "le": 3
+   },
+   "note": "L'accord de coopération de mai 2026 confie au Conseil supérieur des Finances la répartition des objectifs par entité. Sa faiblesse : il repose sur un accord révocable, et non sur une loi spéciale."
+  },
+  "BFP-213": {
+   "titreJeu": "Fin du cumul indemnité et logement",
+   "gainCredibilite": 3,
+   "rue": -8,
+   "reactions": {
+    "nva": 2,
+    "mr": 0,
+    "vooruit": 3,
+    "cdv": 2,
+    "le": 3
+   },
+   "note": "Rendement budgétaire négligeable, effet politique considérable. La seule catégorie de cartes qui fasse retomber la tension dans la rue : personne n'accepte un effort dont les décideurs s'exemptent."
+  },
+  "BFP-214": {
+   "titreJeu": "Réduire la dotation de la Chambre",
+   "gainCredibilite": 3,
+   "rue": -7,
+   "reactions": {
+    "nva": 3,
+    "mr": 1,
+    "vooruit": 2,
+    "cdv": 1,
+    "le": 1
+   },
+   "note": "Limitation du nombre de collaborateurs parlementaires. Même logique : le symbole vaut plus que le montant."
+  },
+  "BFP-156": {
+   "titreJeu": "Politique fondée sur les preuves",
+   "gainCredibilite": 5,
+   "rue": 0,
+   "reactions": {
+    "nva": 1,
+    "mr": 1,
+    "vooruit": 2,
+    "cdv": 2,
+    "le": 3
+   },
+   "note": "Évaluation ex ante et ex post systématique des mesures. Peu spectaculaire, structurellement décisif."
+  },
+  "BFP-180": {
+   "titreJeu": "Encadrer les affaires courantes",
+   "gainCredibilite": 5,
+   "rue": 0,
+   "reactions": {
+    "nva": 1,
+    "mr": 1,
+    "vooruit": 1,
+    "cdv": 2,
+    "le": 2
+   },
+   "note": "Surveillance plus étroite et règles plus strictes pour le budget d'un gouvernement en affaires courantes. La Belgique en à une expérience abondante, y compris les douzième provisoires de fin 2025."
+  },
+  "BFP-253": {
+   "titreJeu": "Améliorer l'analyse de soutenabilité",
+   "gainCredibilite": 5,
+   "rue": 0,
+   "reactions": {
+    "nva": 1,
+    "mr": 1,
+    "vooruit": 1,
+    "cdv": 2,
+    "le": 1
+   },
+   "note": "Méthodologie de la Debt Sustainability Analysis. Technique, et directement lu par les agences de notation."
+  },
+  "BFP-259": {
+   "titreJeu": "Impliquer les interlocuteurs sociaux",
+   "gainCredibilite": 4,
+   "rue": -9,
+   "reactions": {
+    "nva": -1,
+    "mr": -2,
+    "vooruit": 3,
+    "cdv": 3,
+    "le": 2
+   },
+   "note": "Le bloc sur la rémunération alternative n'est envisageable qu'avec un accord interprofessionnel. Associer les partenaires sociaux coûte une nuit de conclave et évité une grève générale."
+  },
+  "BFP-097": {
+   "titreJeu": "Fusionner agences et administrations",
+   "gainCredibilite": 5,
+   "rue": 2,
+   "reactions": {
+    "nva": 3,
+    "mr": 3,
+    "vooruit": 0,
+    "cdv": 1,
+    "le": 1
+   },
+   "note": "Réduction des coûts de fonctionnement par fusion, là où le rabot linéaire se contente de comprimer. Gain réel, mise en œuvre longue."
+  },
+  "BFP-096": {
+   "titreJeu": "Digitaliser l'appareil d'État",
+   "gainCredibilite": 5,
+   "rue": 0,
+   "reactions": {
+    "nva": 3,
+    "mr": 3,
+    "vooruit": 1,
+    "cdv": 2,
+    "le": 2
+   },
+   "note": "Le seul levier d'efficience que les cinq partis soutiennent sans réserve, et celui dont les rendements arrivent le plus tard."
+  },
+  "BFP-205": {
+   "titreJeu": "Revoir les réductions groupe ciblé",
+   "gainCredibilite": 6,
+   "rue": 0,
+   "reactions": {
+    "nva": 1,
+    "mr": -2,
+    "vooruit": 2,
+    "cdv": 1,
+    "le": 1
+   },
+   "note": "Mise en œuvre des recommandations de la Cour des comptes sur les réductions de cotisations ciblées. Évaluer avant de couper."
+  }
+ },
+ "artifices": [
+  {
+   "id": "ART-effets-retour",
+   "titreJeu": "Inscrire les effets retour au solde",
+   "famille": "artifice",
+   "montant": 2000,
+   "provenance": "artifice",
+   "credibilite": 1,
+   "gainCredibilite": -18,
+   "reactions": {
+    "nva": 2,
+    "mr": 3,
+    "vooruit": 1,
+    "cdv": -2,
+    "le": -1
+   },
+   "note": "L'accord de gouvernement a inscrit environ huit milliards d'effets retour liés à l'emploi, soit un tiers de l'effort annonce. Atteindre un taux d'emploi de quatre-vingts pour cent exigerait environ 550 000 emplois nets, un chiffre supérieur à la population totale de demandeurs d'emploi. La Banque nationale retient un retour à l'emploi de dix à vingt pour cent des exclus, contre un tiers pour le gouvernement. Un double comptage d'environ deux milliards a été signalé dès mai 2025. Cette carte rapporte immédiatement et sera intégralement retirée en mars 2027.",
+   "avertissement": "Rapporte tout de suite. Ne survit pas au Comité de monitoring."
+  },
+  {
+   "id": "ART-report-2031",
+   "titreJeu": "Reporter une partie de l'effort à 2031",
+   "famille": "artifice",
+   "montant": 1500,
+   "provenance": "artifice",
+   "credibilite": 2,
+   "gainCredibilite": -6,
+   "reactions": {
+    "nva": 1,
+    "mr": 1,
+    "vooruit": 2,
+    "cdv": 1,
+    "le": 1
+   },
+   "note": "Étaler l'ajustement au-delà de l'horizon 2029 est defendable, à une condition : le dire. Présenté comme un effort à 2029, c'est un report ; assume comme une trajectoire 2027-2031 avec correction automatique, c'est la seule voie qui referme réellement l'écart de 23 milliards.",
+   "avertissement": "Défendable si vous l'assumez. Sanctionné si vous le cachez."
+  }
+ ]
+}

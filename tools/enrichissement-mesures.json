@@ -1,0 +1,1137 @@
+{
+ "BFP-002": {
+  "jouable": true,
+  "titreJeu": "Supprimer les niches de l'IPP",
+  "famille": "remuneration-alternative",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "long",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -1,
+  "reactions": {
+   "nva": -1,
+   "mr": -3,
+   "vooruit": 1,
+   "cdv": -2,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr"
+  ],
+  "chevauche": [
+   "BFP-006",
+   "BFP-010",
+   "BFP-026"
+  ],
+  "note": "Le seul gisement de cette taille qui ne touche ni le salaire net des bas revenus ni les prestations sociales. Il concerne 800 000 à un million de travailleurs et exige une transition longue. C'est aussi le test de sincérité de la position libérale : refuser toute hausse d'impôt et refuser la suppression des niches, c'est défendre un avantage fiscal existant."
+ },
+ "BFP-003": {
+  "jouable": true,
+  "titreJeu": "Globaliser revenus financiers et loyers",
+  "famille": "globalisation",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "long",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": -1,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-004",
+   "BFP-008",
+   "BFP-013",
+   "BFP-019",
+   "BFP-020"
+  ],
+  "note": "Réforme de structure, pas mesure de conclave. Le rendement affiché suppose un régime plein immédiat, ce qu'aucun calendrier réaliste ne permet avant quatre a six ans."
+ },
+ "BFP-004": {
+  "jouable": true,
+  "titreJeu": "Globaliser travail et capital",
+  "famille": "globalisation",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "long",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": -1,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-003",
+   "BFP-008",
+   "BFP-013",
+   "BFP-019"
+  ],
+  "note": "Même assiette que les autres globalisations. Les additionner reviendrait a taxer deux fois le même euro."
+ },
+ "BFP-005": {
+  "jouable": true,
+  "titreJeu": "Contribution sur les patrimoines > 1 M€",
+  "famille": "patrimoine",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "moyen",
+  "risqueJuridique": 3,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": -1,
+   "le": -1
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-007",
+   "BFP-014",
+   "BFP-016"
+  ],
+  "note": "Chiffrage fragile : l'assiette est mal connue et la réaction des contribuables concernés, mal modélisée. La N-VA a fait de la fiscalité du patrimoine sa ligne rouge explicite."
+ },
+ "BFP-006": {
+  "jouable": true,
+  "titreJeu": "Fin de la voiture-salaire",
+  "famille": "remuneration-alternative",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "long",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -1,
+  "reactions": {
+   "nva": -1,
+   "mr": -3,
+   "vooruit": 1,
+   "cdv": -2,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr"
+  ],
+  "chevauche": [
+   "BFP-002",
+   "BFP-010",
+   "BFP-026"
+  ],
+  "note": "Suppression progressive de l'avantage lié à la voiture de société et à la carte carburant. Touche une industrie entière de la mobilité d'entreprise."
+ },
+ "BFP-007": {
+  "jouable": true,
+  "titreJeu": "Taxe millionnaires via l'effectentaks",
+  "famille": "patrimoine",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "court",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": 0,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-005",
+   "BFP-014",
+   "BFP-016"
+  ],
+  "note": "Passe par l'élargissement de la taxe sur les comptes-titres existante, ce qui la rend techniquement plus rapide que la création d'un impôt sur la fortune."
+ },
+ "BFP-008": {
+  "jouable": true,
+  "titreJeu": "Contribution sur les gains de patrimoine",
+  "famille": "globalisation",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "long",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": -1,
+   "le": -1
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-003",
+   "BFP-004",
+   "BFP-013",
+   "BFP-019"
+  ],
+  "note": "Le montant le plus élevé du classeur après les opérations financières. Il recouvre l'essentiel des autres mesures sur le capital : le retenir interdit de retenir les autres."
+ },
+ "BFP-009": {
+  "jouable": true,
+  "titreJeu": "Resserrer les RDT à l'impôt des sociétés",
+  "famille": "societes",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "court",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 1,
+  "reactions": {
+   "nva": -1,
+   "mr": -2,
+   "vooruit": 2,
+   "cdv": 0,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [],
+  "note": "Durcissement de la déduction pour revenus définitivement taxes. Rendement solide, pas de ligne rouge déclarée : c'est le type de mesure qui passe un conclave."
+ },
+ "BFP-010": {
+  "jouable": true,
+  "titreJeu": "Requalifier la rémunération alternative",
+  "famille": "remuneration-alternative",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "moyen",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -1,
+  "reactions": {
+   "nva": -1,
+   "mr": -3,
+   "vooruit": 2,
+   "cdv": -2,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr"
+  ],
+  "chevauche": [
+   "BFP-002",
+   "BFP-006",
+   "BFP-026"
+  ],
+  "note": "Traitement fiscal et parafiscal de toutes les composantes de la rémunération alternative. Recoupe largement la suppression des niches."
+ },
+ "BFP-011": {
+  "jouable": true,
+  "titreJeu": "Borner l'aide au premier engagement",
+  "famille": "emploi",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "court",
+  "risqueJuridique": 0,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 0,
+  "reactions": {
+   "nva": -1,
+   "mr": -2,
+   "vooruit": 1,
+   "cdv": 0,
+   "le": 0
+  },
+  "ligneRouge": [],
+  "chevauche": [],
+  "note": "Limiter dans le temps et rendre dégressive la subvention à l'embauche du premier travailleur."
+ },
+ "BFP-012": {
+  "jouable": true,
+  "titreJeu": "Taxer les plus-values",
+  "famille": "plus-values",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "moyen",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": -2,
+   "mr": -2,
+   "vooruit": 3,
+   "cdv": 1,
+   "le": 2
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-015",
+   "BFP-017",
+   "BFP-021",
+   "BFP-008"
+  ],
+  "note": "Le passage d'un régime symbolique à un régime plein. La cotisation de solidarité entrée en vigueur au 1er janvier 2026 ne rapporte, selon le Conseil supérieur des Finances, qu'environ 500 millions d'ici 2029, contre pres de trois milliards pour un régime plein. La N-VA peut s'y rallier si la mesure est présentée comme anti-abus."
+ },
+ "BFP-013": {
+  "jouable": true,
+  "titreJeu": "Globaliser les revenus",
+  "famille": "globalisation",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "long",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": -1,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-003",
+   "BFP-004",
+   "BFP-008",
+   "BFP-019"
+  ],
+  "note": "Imposer au barème progressif des revenus aujourd'hui taxes forfaitairement."
+ },
+ "BFP-014": {
+  "jouable": true,
+  "titreJeu": "Taxer le patrimoine",
+  "famille": "patrimoine",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "moyen",
+  "risqueJuridique": 3,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": -1,
+   "le": -1
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-005",
+   "BFP-007",
+   "BFP-016"
+  ],
+  "note": "Le rendement le plus élevé de la famille patrimoine, et le chiffrage le plus incertain : il dépend entièrement du seuil, du taux et de l'ampleur des réorganisations patrimoniales qu'il déclenche."
+ },
+ "BFP-015": {
+  "jouable": true,
+  "titreJeu": "Taxer les plus-values (variante PS)",
+  "famille": "plus-values",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "moyen",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": -2,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": 0,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-012",
+   "BFP-017",
+   "BFP-021"
+  ],
+  "note": "Même assiette et même chiffrage que les autres variantes plus-values : 2 889 millions dans les trois cas."
+ },
+ "BFP-016": {
+  "jouable": true,
+  "titreJeu": "Taxe des millionnaires",
+  "famille": "patrimoine",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "moyen",
+  "risqueJuridique": 3,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 2,
+   "cdv": -2,
+   "le": -2
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-005",
+   "BFP-007",
+   "BFP-014"
+  ],
+  "note": "Deux pour cent au-dessus de cinq millions, trois pour cent au-dessus de dix. Portée par une formation d'opposition : la poser sur la table d'un conclave Arizona relève de l'expérience de pensée, ce que le mode Ta coalition permet de tester."
+ },
+ "BFP-017": {
+  "jouable": true,
+  "titreJeu": "Plus-values financières à 30 %",
+  "famille": "plus-values",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "moyen",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 2,
+   "cdv": -1,
+   "le": -1
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-012",
+   "BFP-015",
+   "BFP-021"
+  ],
+  "note": "Taux unique de trente pour cent à l'impôt des personnes physiques, sans les exonérations qui vident la mesure votée de sa substance."
+ },
+ "BFP-018": {
+  "jouable": true,
+  "titreJeu": "Taxe sur les surprofits bancaires",
+  "famille": "societes",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "immediat",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": -1,
+   "mr": -2,
+   "vooruit": 2,
+   "cdv": 1,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [],
+  "note": "Assiette étroite, rendement modeste mais robuste, et coût politique concentré sur un secteur peu populaire. Une des rares mesures que quatre partis sur cinq peuvent signer."
+ },
+ "BFP-019": {
+  "jouable": true,
+  "titreJeu": "Globaliser les revenus du capital",
+  "famille": "globalisation",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "long",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": -1,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr",
+   "nva"
+  ],
+  "chevauche": [
+   "BFP-003",
+   "BFP-004",
+   "BFP-008",
+   "BFP-013"
+  ],
+  "note": "Tous les revenus du patrimoine financier entrent dans la base de l'impôt des personnes physiques."
+ },
+ "BFP-020": {
+  "jouable": true,
+  "titreJeu": "Taxer les loyers réels",
+  "famille": "immobilier",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "moyen",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 1,
+  "reactions": {
+   "nva": -2,
+   "mr": -3,
+   "vooruit": 2,
+   "cdv": -1,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr"
+  ],
+  "chevauche": [
+   "BFP-003"
+  ],
+  "note": "La Belgique taxe le revenu cadastral, pas le loyer perçu. Corriger cette anomalie est recommandé de longue date par les institutions internationales, et politiquement explosif dans un pays de propriétaires bailleurs."
+ },
+ "BFP-021": {
+  "jouable": true,
+  "titreJeu": "Plus-values sur actions",
+  "famille": "plus-values",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "moyen",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": -2,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": 0,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-012",
+   "BFP-015",
+   "BFP-017"
+  ],
+  "note": "Le trophée existentiel de Vooruit. Sans une mesure de cette famille, la présence des socialistes flamands dans une coalition de centre droit devient difficile a justifier devant leur électorat."
+ },
+ "BFP-022": {
+  "jouable": true,
+  "titreJeu": "Réintégrer les malades de longue durée",
+  "famille": "incapacite",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "moyenne",
+  "credibilite": 3,
+  "delai": "moyen",
+  "risqueJuridique": 0,
+  "transfertE2": 0,
+  "effetRetour": true,
+  "structurel": true,
+  "impactSocial": 1,
+  "reactions": {
+   "nva": 2,
+   "mr": 2,
+   "vooruit": 1,
+   "cdv": 3,
+   "le": 2
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-031"
+  ],
+  "note": "Le rendement suppose un retour effectif à l'emploi : c'est un effet retour, et il sera décoté. Sens du solde retenu comme favorable, le chiffrage électoral portant sur l'économie nette attendue et non sur le coût de l'investissement initial."
+ },
+ "BFP-023": {
+  "jouable": true,
+  "titreJeu": "Réformer l'exonération enfants à charge",
+  "famille": "familles",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "moyenne",
+  "credibilite": 4,
+  "delai": "court",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -3,
+  "reactions": {
+   "nva": 0,
+   "mr": -1,
+   "vooruit": -2,
+   "cdv": -3,
+   "le": -1
+  },
+  "ligneRouge": [
+   "cdv"
+  ],
+  "note": "Deux milliards, et un effet distributif brutal sur les familles moyennes. Le chiffrage du Bureau du Plan combine cette réforme avec des allocations familiales portées à trois cents euros : isolée de cette contrepartie, la mesure change de nature. À écarter en l'état.",
+  "chevauche": []
+ },
+ "BFP-024": {
+  "jouable": true,
+  "titreJeu": "Ne plus indexer les très hautes pensions",
+  "famille": "pensions",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "immediat",
+  "risqueJuridique": 2,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": false,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": 3,
+   "mr": 1,
+   "vooruit": 0,
+   "cdv": -1,
+   "le": 0
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-027"
+  ],
+  "note": "Saut d'index ciblé sur les pensions supérieures à trois mille cinq cents euros. Rendement réel dépendant du niveau d'inflation, donc pro-cyclique, et effet borne dans le temps : a ne pas comptabiliser comme effort structurel au-delà de sa durée légale."
+ },
+ "BFP-025": {
+  "jouable": true,
+  "titreJeu": "Durcir le revenu d'intégration",
+  "famille": "social",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "court",
+  "risqueJuridique": 2,
+  "transfertE2": 0.55,
+  "effetRetour": true,
+  "structurel": true,
+  "impactSocial": -3,
+  "reactions": {
+   "nva": 3,
+   "mr": 2,
+   "vooruit": -3,
+   "cdv": -2,
+   "le": -2
+  },
+  "ligneRouge": [
+   "vooruit"
+  ],
+  "chevauche": [],
+  "note": "Creuser l'écart entre travailler et ne pas travailler en gelant le revenu d'intégration. L'économie fédérale se transforme en dépense communale : la limitation du chômage à vingt-quatre mois devrait déjà coûter pres d'un milliard aux CPAS d'ici 2029, non compensé. La norme européenne de dépenses nettes étant consolidée, ce transfert ne réduit pas l'écart d'un euro."
+ },
+ "BFP-026": {
+  "jouable": true,
+  "titreJeu": "Cotiser sur toute rémunération alternative",
+  "famille": "remuneration-alternative",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "moyen",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 0,
+  "reactions": {
+   "nva": -2,
+   "mr": -3,
+   "vooruit": 2,
+   "cdv": -1,
+   "le": 0
+  },
+  "ligneRouge": [
+   "mr"
+  ],
+  "chevauche": [
+   "BFP-002",
+   "BFP-006",
+   "BFP-010"
+  ],
+  "note": "Cotisation patronale de vingt-cinq pour cent sur toutes les formes de rémunération alternative. Recoupe la suppression des niches : le cumul réaliste des deux familles plafonné autour de cinq a six milliards, pas de sept et demi."
+ },
+ "BFP-027": {
+  "jouable": true,
+  "titreJeu": "Abaisser le plafond de pension",
+  "famille": "pensions",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "moyen",
+  "risqueJuridique": 3,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 2,
+  "reactions": {
+   "nva": 1,
+   "mr": -1,
+   "vooruit": 1,
+   "cdv": -1,
+   "le": -1
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-024"
+  ],
+  "note": "Abaisser le plafond légal de pension, aujourd'hui a pres de huit mille euros bruts. Risque juridique élevé : toucher aux droits de pension déjà constitues exposé à un contentieux constitutionnel sérieux."
+ },
+ "BFP-028": {
+  "jouable": true,
+  "titreJeu": "Maintenir la norme santé à 2,5 %",
+  "famille": "sante",
+  "type": "depense",
+  "sens": -1,
+  "sensCertitude": "moyenne",
+  "credibilite": 4,
+  "delai": "immediat",
+  "risqueJuridique": 0,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 3,
+  "reactions": {
+   "nva": -3,
+   "mr": -3,
+   "vooruit": 3,
+   "cdv": 3,
+   "le": 2
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-029",
+   "BFP-030"
+  ],
+  "note": "Seule mesure du jeu qui dégrade volontairement le solde. Maintenir la norme légale de croissance des soins de santé coûte, il ne rapporte pas. Elle existe parce qu'un conclave n'est pas seulement une soustraction : c'est la contrepartie que Vooruit et le CD&V peuvent exiger pour signer le reste."
+ },
+ "BFP-029": {
+  "jouable": true,
+  "titreJeu": "Aligner la santé sur la croissance",
+  "famille": "sante",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "moyen",
+  "risqueJuridique": 1,
+  "transfertE2": 0.15,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -2,
+  "reactions": {
+   "nva": 3,
+   "mr": 3,
+   "vooruit": -3,
+   "cdv": -3,
+   "le": -2
+  },
+  "ligneRouge": [
+   "vooruit",
+   "cdv"
+  ],
+  "chevauche": [
+   "BFP-028",
+   "BFP-030"
+  ],
+  "note": "Le plus gros gisement du côté des dépenses, et la ligne rouge simultanée de deux partis de la coalition. Un rabot de cette ampleur sur la norme de croissance est incompatible avec la présence de Vooruit et du CD&V ; une réforme structurelle équivalente, par pathologie et par financement hospitalier, ne l'est pas."
+ },
+ "BFP-030": {
+  "jouable": true,
+  "titreJeu": "Norme santé ramenée à 1,5 %",
+  "famille": "sante",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "moyen",
+  "risqueJuridique": 1,
+  "transfertE2": 0.15,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -2,
+  "reactions": {
+   "nva": 3,
+   "mr": 3,
+   "vooruit": -3,
+   "cdv": -3,
+   "le": -2
+  },
+  "ligneRouge": [
+   "vooruit",
+   "cdv"
+  ],
+  "chevauche": [
+   "BFP-028",
+   "BFP-029"
+  ],
+  "note": "Variante moins brutale du même levier. Même assiette : la retenir en plus de l'alignement sur la croissance serait un double comptage intégral."
+ },
+ "BFP-031": {
+  "jouable": true,
+  "titreJeu": "Responsabiliser sur l'incapacité",
+  "famille": "incapacite",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 3,
+  "delai": "moyen",
+  "risqueJuridique": 1,
+  "transfertE2": 0.1,
+  "effetRetour": true,
+  "structurel": true,
+  "impactSocial": -1,
+  "reactions": {
+   "nva": 3,
+   "mr": 2,
+   "vooruit": -1,
+   "cdv": 1,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-022"
+  ],
+  "note": "Responsabilisation des employeurs et des travailleurs sur l'incapacité primaire. Rendement partiellement adossé à un effet retour, donc décote."
+ },
+ "BFP-032": {
+  "jouable": true,
+  "titreJeu": "Réduire la facture asile",
+  "famille": "migration",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "court",
+  "risqueJuridique": 3,
+  "transfertE2": 0.2,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -2,
+  "reactions": {
+   "nva": 3,
+   "mr": 2,
+   "vooruit": -1,
+   "cdv": -1,
+   "le": -2
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-036"
+  ],
+  "note": "Chiffrage entièrement dépendant d'hypothèses de flux migratoires que rien ne garantit, et exposé à un contentieux nourri sur les obligations d'accueil. Une partie du coût évité réapparaît chez les CPAS et les communes."
+ },
+ "BFP-033": {
+  "jouable": true,
+  "titreJeu": "Vendre les participations publiques",
+  "famille": "one-shot",
+  "type": "oneshot",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 1,
+  "delai": "court",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": false,
+  "impactSocial": 0,
+  "reactions": {
+   "nva": 2,
+   "mr": 3,
+   "vooruit": -2,
+   "cdv": 0,
+   "le": 0
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-038"
+  ],
+  "note": "Quinze milliards affichés, zéro euro d'effort structurel. Une cession d'actifs améliore la trésorerie d'une année et ne change rien au solde structurel : la Commission et les agences de notation la neutralisent. La privatisation partielle de Belfius figure pourtant au programme de rentrée du gouvernement."
+ },
+ "BFP-034": {
+  "jouable": true,
+  "titreJeu": "Tailler dans les subsides fédéraux",
+  "famille": "subsides",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "court",
+  "risqueJuridique": 0,
+  "transfertE2": 0.1,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -1,
+  "reactions": {
+   "nva": 3,
+   "mr": 2,
+   "vooruit": 0,
+   "cdv": 1,
+   "le": 0
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-037"
+  ],
+  "note": "Réduction des subsides et des tâches au niveau fédéral. Rendement solide, mais son effet réel dépend de savoir si les tâches supprimées disparaissent ou migrent vers un autre niveau de pouvoir."
+ },
+ "BFP-035": {
+  "jouable": true,
+  "titreJeu": "Réduire la coopération au développement",
+  "famille": "international",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "immediat",
+  "risqueJuridique": 0,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 0,
+  "reactions": {
+   "nva": 3,
+   "mr": 1,
+   "vooruit": -2,
+   "cdv": -2,
+   "le": -3
+  },
+  "ligneRouge": [],
+  "chevauche": [],
+  "note": "Rendement immédiat et certain, pour environ deux dixièmes de point de PIB. Le coût n'est pas budgétaire : c'est la destruction d'un actif diplomatique et d'un levier migratoire, au moment précis ou l'on cherche a agir sur les flux."
+ },
+ "BFP-036": {
+  "jouable": true,
+  "titreJeu": "Limiter l'afflux migratoire",
+  "famille": "migration",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 2,
+  "delai": "court",
+  "risqueJuridique": 3,
+  "transfertE2": 0.2,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": -2,
+  "reactions": {
+   "nva": 3,
+   "mr": 2,
+   "vooruit": -1,
+   "cdv": -1,
+   "le": -2
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-032"
+  ],
+  "note": "Réduction de la capacité d'accueil. Même assiette que la réduction de la facture asile."
+ },
+ "BFP-037": {
+  "jouable": true,
+  "titreJeu": "Rationaliser les subsides aux entreprises",
+  "famille": "subsides",
+  "type": "depense",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "court",
+  "risqueJuridique": 0,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 1,
+  "reactions": {
+   "nva": 1,
+   "mr": -2,
+   "vooruit": 2,
+   "cdv": 0,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-034"
+  ],
+  "note": "Les subsides fédéraux aux entreprises représentent une base de pres de huit milliards. Les rationaliser est techniquement solide ; le MR y est réticent."
+ },
+ "BFP-038": {
+  "jouable": true,
+  "titreJeu": "Céder les participations non stratégiques",
+  "famille": "one-shot",
+  "type": "oneshot",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 1,
+  "delai": "court",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": false,
+  "impactSocial": 0,
+  "reactions": {
+   "nva": 3,
+   "mr": 3,
+   "vooruit": -2,
+   "cdv": 0,
+   "le": 0
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-033"
+  ],
+  "note": "Variante qui répartit le produit entre désendettement et investissements. Même objection : un one-shot ne referme pas un écart structurel, il le décale d'un an."
+ },
+ "BFP-039": {
+  "jouable": true,
+  "titreJeu": "Sortir des subsides fossiles au transport",
+  "famille": "ecofiscalite",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "moyen",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 0,
+  "reactions": {
+   "nva": -2,
+   "mr": -3,
+   "vooruit": 1,
+   "cdv": -1,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-040"
+  ],
+  "note": "Réduction du remboursement du diesel professionnel et fiscalité automobile plus orientante. Rendement robuste, opposition frontale du secteur du transport."
+ },
+ "BFP-040": {
+  "jouable": true,
+  "titreJeu": "Supprimer le diesel professionnel",
+  "famille": "ecofiscalite",
+  "type": "recette",
+  "sens": 1,
+  "sensCertitude": "haute",
+  "credibilite": 4,
+  "delai": "moyen",
+  "risqueJuridique": 1,
+  "transfertE2": 0,
+  "effetRetour": false,
+  "structurel": true,
+  "impactSocial": 0,
+  "reactions": {
+   "nva": -2,
+   "mr": -3,
+   "vooruit": 2,
+   "cdv": -1,
+   "le": 1
+  },
+  "ligneRouge": [],
+  "chevauche": [
+   "BFP-039"
+  ],
+  "note": "Suppression linéaire du remboursement, étalée. Même assiette que la sortie des subsides fossiles au transport."
+ }
+}

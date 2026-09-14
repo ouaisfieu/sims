@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>sims — simulateurs citoyens des politiques publiques belges | Ouaisfieu</title>
+<meta name="description" content="Des simulateurs jouables, bâtis sur des sources primaires, pour comprendre de l'intérieur les arbitrages des politiques publiques belges. Premier titre : Fumée blanche, le conclave budgétaire fédéral.">
+<link rel="canonical" href="https://ouaisfieu.github.io/sims/">
+<link rel="alternate" hreflang="fr" href="https://ouaisfieu.github.io/sims/">
+<link rel="alternate" hreflang="x-default" href="https://ouaisfieu.github.io/sims/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ouaisfieu · sims">
+<meta property="og:locale" content="fr_BE">
+<meta property="og:title" content="sims — simulateurs citoyens des politiques publiques belges">
+<meta property="og:description" content="Comprendre un arbitrage en le faisant soi-même, à partir des sources primaires.">
+<meta property="og:url" content="https://ouaisfieu.github.io/sims/">
+<meta property="og:image" content="https://ouaisfieu.github.io/sims/assets/img/partage.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A0C11">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" href="assets/img/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/icone-180.png">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/corpus.css">
+<style>
+  .titres { display: grid; gap: 14px; margin: 26px 0 34px; }
+  .titre-sim {
+    display: block; text-decoration: none; color: inherit;
+    background: linear-gradient(150deg, #1B2333, var(--encre-2));
+    border: 1px solid var(--trait); border-radius: var(--r-l); padding: 22px 20px;
+    transition: border-color .16s, transform .1s;
+  }
+  .titre-sim:hover { border-color: var(--or); }
+  .titre-sim:active { transform: translateY(1px); }
+  .titre-sim h2 { font-size: 1.55rem; margin: 6px 0 6px; letter-spacing: -0.03em; }
+  .titre-sim p { color: var(--craie-2); margin-bottom: 10px; }
+  .titre-sim__sur { font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--or); font-weight: 800; }
+  .titre-sim__pied { display: flex; flex-wrap: wrap; gap: 6px; }
+  .a-venir { opacity: .5; border-style: dashed; }
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"CollectionPage","@id":"https://ouaisfieu.github.io/sims/#page","name":"sims — simulateurs citoyens des politiques publiques belges","url":"https://ouaisfieu.github.io/sims/","inLanguage":"fr-BE",
+ "mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Fumée blanche — le conclave budgétaire","url":"https://ouaisfieu.github.io/sims/conclave/"}]}},
+{"@type":"Organization","@id":"https://ouaisfieu.github.io/#org","name":"Ouaisfieu","url":"https://ouaisfieu.github.io/","description":"Projet citoyen de veille et de contre-analyse des politiques publiques belges."}]}
+</script>
+</head>
+<body>
+<a class="saut-contenu" href="#contenu">Aller au contenu</a>
+<header class="entete-site">
+  <div class="enveloppe entete-site__barre">
+    <a class="marque" href="./"><svg viewBox="0 0 40 64" aria-hidden="true" focusable="false" fill="currentColor"><circle cx="20" cy="57" r="4"/><circle cx="23" cy="47" r="5.5"/><circle cx="16" cy="37" r="6.5"/><circle cx="24" cy="27" r="7.5"/><circle cx="15" cy="18" r="7"/><circle cx="23" cy="9" r="6"/></svg><span>Ouaisfieu · sims</span></a>
+    <nav aria-label="Principale">
+      <a href="conclave/">Fumée blanche</a>
+      <a href="conclave/mesures/">Les mesures</a>
+      <a href="conclave/cheatcodes/">Cheatcodes</a>
+      <a href="conclave/methodologie.html">Méthodologie</a>
+    </nav>
+  </div>
+</header>
+
+<main class="corps enveloppe" id="contenu">
+  <h1>Comprendre un arbitrage en le faisant soi-même</h1>
+  <p class="chapo">La plupart des décisions publiques sont expliquées après coup, par ceux qui les ont prises. <strong>sims</strong> propose l'inverse : des simulateurs jouables, bâtis sur les sources primaires, où l'on découvre la contrainte en s'y heurtant.</p>
+
+  <div class="titres">
+    <a class="titre-sim" href="conclave/">
+      <span class="titre-sim__sur">Budget fédéral · automne 2026</span>
+      <h2>Fumée blanche</h2>
+      <p>Six nuits, cinq partis, dix milliards à trouver. Les 263 mesures du Bureau fédéral du Plan, les lignes rouges réelles de la coalition Arizona, et un épilogue où la Cour des comptes recompte ce que vous avez annoncé.</p>
+      <span class="titre-sim__pied">
+        <span class="etiquette etiquette--bfp">263 mesures sourcées</span>
+        <span class="etiquette">hors ligne</span>
+        <span class="etiquette">sans traceur</span>
+      </span>
+    </a>
+
+    <div class="titre-sim a-venir">
+      <span class="titre-sim__sur">À venir</span>
+      <h2>D'autres arbitrages</h2>
+      <p>Le format se prête à tout ce qui met une contrainte publique en face de préférences contradictoires : une réforme des pensions, un plan climat, une négociation institutionnelle.</p>
+    </div>
+  </div>
+
+  <h2>Trois principes</h2>
+  <dl class="champs">
+    <dt>Sources primaires</dt><dd>Chaque chiffre porte sa provenance et son lien. Quand une donnée officielle manque, nous le disons plutôt que de combler.</dd>
+    <dt>Jugements assumés</dt><dd>Un simulateur suppose des hypothèses. Les nôtres sont écrites, datées et modifiables, dans un fichier que l'on peut lire.</dd>
+    <dt>Rien ne sort</dt><dd>Pas de compte, pas de serveur, pas de traceur. Tout se passe dans votre navigateur, y compris hors ligne.</dd>
+  </dl>
+
+  <h2>Les données sont à vous</h2>
+  <p>L'inventaire des <a href="conclave/mesures/">263 mesures du budget fédéral 2027</a> est consultable mesure par mesure et <a href="assets/data/corpus.json" download>téléchargeable en JSON</a>, traduction française comprise. Les <a href="conclave/cheatcodes/">combinaisons résolues</a> et leurs statistiques le sont aussi. Le code du modèle et la couche éditoriale sont dans le <a href="https://github.com/ouaisfieu/sims" rel="noopener">dépôt public</a>.</p>
+</main>
+
+<footer class="pied enveloppe">
+  <p><strong>Ouaisfieu</strong> — projet citoyen de veille et de contre-analyse des politiques publiques belges.</p>
+  <p>Ce site n'émane d'aucune institution publique. Source primaire du premier titre : Bureau fédéral du Plan, <a href="https://www.plan.be/sites/default/files/documents/REP_BUDGET2027_13320_FR.pdf" rel="noopener">Options de politiques pour l'élaboration du budget 2027</a>, 1<sup>er</sup> juin 2026.</p>
+</footer>
+</body>
+</html>

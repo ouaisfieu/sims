@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Fumée blanche">
+  <defs>
+    <radialGradient id="lueur" cx="50%" cy="80%" r="34%">
+      <stop offset="0%" stop-color="#E9B448" stop-opacity=".70"/>
+      <stop offset="100%" stop-color="#E9B448" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="doux"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0A0C11"/>
+  <ellipse cx="256" cy="410" rx="134" ry="94" fill="url(#lueur)"/>
+  <g fill="#F2EFE8" filter="url(#doux)">
+    <circle cx="256" cy="381" r="27"/>
+    <circle cx="271" cy="344" r="35"/>
+    <circle cx="242" cy="307" r="42"/>
+    <circle cx="278" cy="266" r="50"/><circle cx="243" cy="284" r="31"/>
+    <circle cx="246" cy="221" r="57"/>
+    <circle cx="288" cy="174" r="61"/><circle cx="245" cy="196" r="38"/>
+    <circle cx="229" cy="132" r="53"/><circle cx="262" cy="155" r="33"/>
+    <circle cx="271" cy="95"  r="42"/>
+    <circle cx="248" cy="68"  r="29"/>
+  </g>
+</svg>

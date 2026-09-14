@@ -1,0 +1,2871 @@
+{
+ "genere": "2026-09-14",
+ "methode": "Recherche par faisceau sur les 76 cartes et les cinq bilatérales. Rendement réel en espérance, loterie du recours remplacée par son espérance. Reprise nocturne de cohésion non comptée, par prudence.",
+ "objectifParDefaut": 10000,
+ "combinaisons": {
+  "plancher": {
+   "actions": 3,
+   "bilaterales": [],
+   "cartes": [
+    {
+     "id": "BFP-014",
+     "slug": "taxer-le-patrimoine",
+     "titre": "Taxer le patrimoine",
+     "type": "mesure",
+     "famille": "patrimoine",
+     "montantHorizon": 5291,
+     "montant": 7558,
+     "provenance": "bfp",
+     "parti": "PS",
+     "credibilite": 2,
+     "ligneRouge": [
+      "mr",
+      "nva"
+     ]
+    },
+    {
+     "id": "BFP-033",
+     "slug": "vendre-les-participations-publiques",
+     "titre": "Vendre les participations publiques",
+     "type": "mesure",
+     "famille": "one-shot",
+     "montantHorizon": 3000,
+     "montant": 15000,
+     "provenance": "bfp",
+     "parti": "VB",
+     "credibilite": 1,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-038",
+     "slug": "ceder-les-participations-non-strategiques",
+     "titre": "Céder les participations non stratégiques",
+     "type": "mesure",
+     "famille": "one-shot",
+     "montantHorizon": 2000,
+     "montant": 10000,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 1,
+     "ligneRouge": []
+    }
+   ],
+   "affiche": 10291,
+   "reel": 1358,
+   "ecart": 8933,
+   "partRealisee": 0.13193823923816927,
+   "credibilite": 29,
+   "rue": 30,
+   "cohesion": {
+    "nva": 69,
+    "mr": 74,
+    "vooruit": 65,
+    "cdv": 65,
+    "le": 65
+   },
+   "cohesionMin": 65,
+   "mention": "E",
+   "nbMethode": 0,
+   "nbMesures": 3,
+   "lien": "eyJtIjoiY29uY2xhdmUiLCJnIjoyMDI2LCJuIjoxLCJhIjpbIkJGUC0wMTQiLCJCRlAtMDMzIiwiQkZQLTAzOCJdLCJiIjpbXX0",
+   "objectifVise": 10000,
+   "mode": "conclave",
+   "validation": {
+    "reelMedian": 2611,
+    "reelMin": 0,
+    "reelMax": 2611,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  },
+  "reference": {
+   "actions": 14,
+   "bilaterales": [],
+   "cartes": [
+    {
+     "id": "BFP-010",
+     "slug": "requalifier-la-remuneration-alternative",
+     "titre": "Requalifier la rémunération alternative",
+     "type": "mesure",
+     "famille": "remuneration-alternative",
+     "montantHorizon": 3816,
+     "montant": 5452,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": [
+      "mr"
+     ]
+    },
+    {
+     "id": "BFP-082",
+     "slug": "refondre-les-taux-de-tva",
+     "titre": "Refondre les taux de TVA",
+     "type": "mesure",
+     "famille": "tva",
+     "montantHorizon": 2700,
+     "montant": 3000,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 5,
+     "ligneRouge": [
+      "mr"
+     ]
+    },
+    {
+     "id": "BFP-035",
+     "slug": "reduire-la-cooperation-au-developpement",
+     "titre": "Réduire la coopération au développement",
+     "type": "mesure",
+     "famille": "international",
+     "montantHorizon": 1432,
+     "montant": 1432,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-023",
+     "slug": "reformer-l-exoneration-enfants-a-charge",
+     "titre": "Réformer l'exonération enfants à charge",
+     "type": "mesure",
+     "famille": "familles",
+     "montantHorizon": 1785,
+     "montant": 1983,
+     "provenance": "bfp",
+     "parti": "Les Engagés",
+     "credibilite": 4,
+     "ligneRouge": [
+      "cdv"
+     ]
+    },
+    {
+     "id": "BFP-116",
+     "slug": "raboter-le-cout-de-la-fonction-publique",
+     "titre": "Raboter le coût de la fonction publique",
+     "type": "mesure",
+     "famille": "fonction-publique",
+     "montantHorizon": 1200,
+     "montant": 1200,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-034",
+     "slug": "tailler-dans-les-subsides-federaux",
+     "titre": "Tailler dans les subsides fédéraux",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 1162,
+     "montant": 1291,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-039",
+     "slug": "sortir-des-subsides-fossiles-au-transport",
+     "titre": "Sortir des subsides fossiles au transport",
+     "type": "mesure",
+     "famille": "ecofiscalite",
+     "montantHorizon": 879,
+     "montant": 1256,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-218",
+     "slug": "spending-reviews-a-la-neerlandaise",
+     "titre": "Spending reviews à la néerlandaise",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-217",
+     "slug": "norme-de-depenses-avec-ancre-de-dette",
+     "titre": "Norme de dépenses avec ancre de dette",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-216",
+     "slug": "professionnaliser-le-cycle-budgetaire",
+     "titre": "Professionnaliser le cycle budgétaire",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-209",
+     "slug": "forfaits-par-pathologie",
+     "titre": "Forfaits par pathologie",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-258",
+     "slug": "assumer-des-hypotheses-macro-realistes",
+     "titre": "Assumer des hypothèses macro réalistes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-228",
+     "slug": "supprimer-les-soins-de-faible-valeur",
+     "titre": "Supprimer les soins de faible valeur",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-212",
+     "slug": "mieux-gerer-les-marches-publics",
+     "titre": "Mieux gérer les marchés publics",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    }
+   ],
+   "affiche": 12974,
+   "reel": 9807,
+   "ecart": 3167,
+   "partRealisee": 0.7559272390935716,
+   "credibilite": 100,
+   "rue": 57,
+   "cohesion": {
+    "nva": 100,
+    "mr": 88,
+    "vooruit": 90,
+    "cdv": 100,
+    "le": 100
+   },
+   "cohesionMin": 88,
+   "mention": "A",
+   "nbMethode": 7,
+   "nbMesures": 7,
+   "lien": "eyJtIjoiY29uY2xhdmUiLCJnIjoyMDI2LCJuIjoxLCJhIjpbIkJGUC0wMTAiLCJCRlAtMDgyIiwiQkZQLTAzNSIsIkJGUC0wMjMiLCJCRlAtMTE2IiwiQkZQLTAzNCIsIkJGUC0wMzkiLCJCRlAtMjE4IiwiQkZQLTIxNyIsIkJGUC0yMTYiLCJCRlAtMjA5IiwiQkZQLTI1OCIsIkJGUC0yMjgiLCJCRlAtMjEyIl0sImIiOltdfQ",
+   "objectifVise": 10000,
+   "mode": "conclave",
+   "validation": {
+    "reelMedian": 8939,
+    "reelMin": 4010,
+    "reelMax": 11558,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  },
+  "sans-ligne-rouge": {
+   "actions": 18,
+   "bilaterales": [],
+   "cartes": [
+    {
+     "id": "BFP-035",
+     "slug": "reduire-la-cooperation-au-developpement",
+     "titre": "Réduire la coopération au développement",
+     "type": "mesure",
+     "famille": "international",
+     "montantHorizon": 1432,
+     "montant": 1432,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-012",
+     "slug": "taxer-les-plus-values",
+     "titre": "Taxer les plus-values",
+     "type": "mesure",
+     "famille": "plus-values",
+     "montantHorizon": 2022,
+     "montant": 2889,
+     "provenance": "bfp",
+     "parti": "Les Engagés",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-116",
+     "slug": "raboter-le-cout-de-la-fonction-publique",
+     "titre": "Raboter le coût de la fonction publique",
+     "type": "mesure",
+     "famille": "fonction-publique",
+     "montantHorizon": 1200,
+     "montant": 1200,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-034",
+     "slug": "tailler-dans-les-subsides-federaux",
+     "titre": "Tailler dans les subsides fédéraux",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 1162,
+     "montant": 1291,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-015",
+     "slug": "taxer-les-plus-values-variante-ps",
+     "titre": "Taxer les plus-values (variante PS)",
+     "type": "mesure",
+     "famille": "plus-values",
+     "montantHorizon": 2022,
+     "montant": 2889,
+     "provenance": "bfp",
+     "parti": "PS",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-009",
+     "slug": "resserrer-les-rdt-a-l-impot-des-societes",
+     "titre": "Resserrer les RDT à l'impôt des sociétés",
+     "type": "mesure",
+     "famille": "societes",
+     "montantHorizon": 945,
+     "montant": 1050,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-039",
+     "slug": "sortir-des-subsides-fossiles-au-transport",
+     "titre": "Sortir des subsides fossiles au transport",
+     "type": "mesure",
+     "famille": "ecofiscalite",
+     "montantHorizon": 879,
+     "montant": 1256,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-249",
+     "slug": "supprimer-l-avantage-du-troisieme-pilier",
+     "titre": "Supprimer l'avantage du troisième pilier",
+     "type": "mesure",
+     "famille": "niches",
+     "montantHorizon": 700,
+     "montant": 1000,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-152",
+     "slug": "reorienter-l-effort-de-defense",
+     "titre": "Réorienter l'effort de défense",
+     "type": "mesure",
+     "famille": "defense",
+     "montantHorizon": 1050,
+     "montant": 1500,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 2,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-218",
+     "slug": "spending-reviews-a-la-neerlandaise",
+     "titre": "Spending reviews à la néerlandaise",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-011",
+     "slug": "borner-l-aide-au-premier-engagement",
+     "titre": "Borner l'aide au premier engagement",
+     "type": "mesure",
+     "famille": "emploi",
+     "montantHorizon": 446,
+     "montant": 495,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-217",
+     "slug": "norme-de-depenses-avec-ancre-de-dette",
+     "titre": "Norme de dépenses avec ancre de dette",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-037",
+     "slug": "rationaliser-les-subsides-aux-entreprises",
+     "titre": "Rationaliser les subsides aux entreprises",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 842,
+     "montant": 936,
+     "provenance": "bfp",
+     "parti": "Vooruit",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-258",
+     "slug": "assumer-des-hypotheses-macro-realistes",
+     "titre": "Assumer des hypothèses macro réalistes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-216",
+     "slug": "professionnaliser-le-cycle-budgetaire",
+     "titre": "Professionnaliser le cycle budgétaire",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-219",
+     "slug": "clauses-de-caducite-sur-les-depenses-fiscales",
+     "titre": "Clauses de caducité sur les dépenses fiscales",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-224",
+     "slug": "auditer-les-subsides-au-precompte",
+     "titre": "Auditer les subsides au précompte",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-209",
+     "slug": "forfaits-par-pathologie",
+     "titre": "Forfaits par pathologie",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    }
+   ],
+   "affiche": 12700,
+   "reel": 7865,
+   "ecart": 4835,
+   "partRealisee": 0.6192720314960629,
+   "credibilite": 100,
+   "rue": 35,
+   "cohesion": {
+    "nva": 100,
+    "mr": 30,
+    "vooruit": 100,
+    "cdv": 100,
+    "le": 100
+   },
+   "cohesionMin": 30,
+   "mention": "A",
+   "nbMethode": 7,
+   "nbMesures": 11,
+   "lien": "eyJtIjoiY29uY2xhdmUiLCJnIjoyMDI2LCJuIjoxLCJhIjpbIkJGUC0wMzUiLCJCRlAtMDEyIiwiQkZQLTExNiIsIkJGUC0wMzQiLCJCRlAtMDE1IiwiQkZQLTAwOSIsIkJGUC0wMzkiLCJCRlAtMjQ5IiwiQkZQLTE1MiIsIkJGUC0yMTgiLCJCRlAtMDExIiwiQkZQLTIxNyIsIkJGUC0wMzciLCJCRlAtMjU4IiwiQkZQLTIxNiIsIkJGUC0yMTkiLCJCRlAtMjI0IiwiQkZQLTIwOSJdLCJiIjpbXX0",
+   "objectifVise": 10000,
+   "mode": "conclave",
+   "validation": {
+    "reelMedian": 8276,
+    "reelMin": 5928,
+    "reelMax": 9034,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  },
+  "fidelite": {
+   "actions": 14,
+   "bilaterales": [],
+   "cartes": [
+    {
+     "id": "BFP-035",
+     "slug": "reduire-la-cooperation-au-developpement",
+     "titre": "Réduire la coopération au développement",
+     "type": "mesure",
+     "famille": "international",
+     "montantHorizon": 1432,
+     "montant": 1432,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-116",
+     "slug": "raboter-le-cout-de-la-fonction-publique",
+     "titre": "Raboter le coût de la fonction publique",
+     "type": "mesure",
+     "famille": "fonction-publique",
+     "montantHorizon": 1200,
+     "montant": 1200,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-010",
+     "slug": "requalifier-la-remuneration-alternative",
+     "titre": "Requalifier la rémunération alternative",
+     "type": "mesure",
+     "famille": "remuneration-alternative",
+     "montantHorizon": 3816,
+     "montant": 5452,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": [
+      "mr"
+     ]
+    },
+    {
+     "id": "BFP-023",
+     "slug": "reformer-l-exoneration-enfants-a-charge",
+     "titre": "Réformer l'exonération enfants à charge",
+     "type": "mesure",
+     "famille": "familles",
+     "montantHorizon": 1785,
+     "montant": 1983,
+     "provenance": "bfp",
+     "parti": "Les Engagés",
+     "credibilite": 4,
+     "ligneRouge": [
+      "cdv"
+     ]
+    },
+    {
+     "id": "BFP-037",
+     "slug": "rationaliser-les-subsides-aux-entreprises",
+     "titre": "Rationaliser les subsides aux entreprises",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 842,
+     "montant": 936,
+     "provenance": "bfp",
+     "parti": "Vooruit",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-218",
+     "slug": "spending-reviews-a-la-neerlandaise",
+     "titre": "Spending reviews à la néerlandaise",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-217",
+     "slug": "norme-de-depenses-avec-ancre-de-dette",
+     "titre": "Norme de dépenses avec ancre de dette",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-258",
+     "slug": "assumer-des-hypotheses-macro-realistes",
+     "titre": "Assumer des hypothèses macro réalistes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-219",
+     "slug": "clauses-de-caducite-sur-les-depenses-fiscales",
+     "titre": "Clauses de caducité sur les dépenses fiscales",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-216",
+     "slug": "professionnaliser-le-cycle-budgetaire",
+     "titre": "Professionnaliser le cycle budgétaire",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-224",
+     "slug": "auditer-les-subsides-au-precompte",
+     "titre": "Auditer les subsides au précompte",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-011",
+     "slug": "borner-l-aide-au-premier-engagement",
+     "titre": "Borner l'aide au premier engagement",
+     "type": "mesure",
+     "famille": "emploi",
+     "montantHorizon": 446,
+     "montant": 495,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-040",
+     "slug": "supprimer-le-diesel-professionnel",
+     "titre": "Supprimer le diesel professionnel",
+     "type": "mesure",
+     "famille": "ecofiscalite",
+     "montantHorizon": 578,
+     "montant": 825,
+     "provenance": "bfp",
+     "parti": "Vooruit",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-199",
+     "slug": "appliquer-les-avis-de-la-cour-des-comptes",
+     "titre": "Appliquer les avis de la Cour des comptes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    }
+   ],
+   "affiche": 10099,
+   "reel": 8017,
+   "ecart": 2082,
+   "partRealisee": 0.7938525398554311,
+   "credibilite": 100,
+   "rue": 50,
+   "cohesion": {
+    "nva": 90,
+    "mr": 49,
+    "vooruit": 100,
+    "cdv": 100,
+    "le": 100
+   },
+   "cohesionMin": 49,
+   "mention": "A",
+   "nbMethode": 7,
+   "nbMesures": 7,
+   "lien": "eyJtIjoiY29uY2xhdmUiLCJnIjoyMDI2LCJuIjoxLCJhIjpbIkJGUC0wMzUiLCJCRlAtMTE2IiwiQkZQLTAxMCIsIkJGUC0wMjMiLCJCRlAtMDM3IiwiQkZQLTIxOCIsIkJGUC0yMTciLCJCRlAtMjU4IiwiQkZQLTIxOSIsIkJGUC0yMTYiLCJCRlAtMjI0IiwiQkZQLTAxMSIsIkJGUC0wNDAiLCJCRlAtMTk5Il0sImIiOltdfQ",
+   "objectifVise": 10000,
+   "mode": "conclave",
+   "validation": {
+    "reelMedian": 8887,
+    "reelMin": 3450,
+    "reelMax": 8887,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  },
+  "facade": {
+   "actions": 13,
+   "bilaterales": [
+    "nva",
+    "mr",
+    "vooruit",
+    "cdv",
+    "le"
+   ],
+   "cartes": [
+    {
+     "id": "BFP-033",
+     "slug": "vendre-les-participations-publiques",
+     "titre": "Vendre les participations publiques",
+     "type": "mesure",
+     "famille": "one-shot",
+     "montantHorizon": 3000,
+     "montant": 15000,
+     "provenance": "bfp",
+     "parti": "VB",
+     "credibilite": 1,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-016",
+     "slug": "taxe-des-millionnaires",
+     "titre": "Taxe des millionnaires",
+     "type": "mesure",
+     "famille": "patrimoine",
+     "montantHorizon": 2735,
+     "montant": 3907,
+     "provenance": "bfp",
+     "parti": "PVDA-PTB",
+     "credibilite": 2,
+     "ligneRouge": [
+      "mr",
+      "nva"
+     ]
+    },
+    {
+     "id": "BFP-005",
+     "slug": "contribution-sur-les-patrimoines-1-m",
+     "titre": "Contribution sur les patrimoines > 1 M€",
+     "type": "mesure",
+     "famille": "patrimoine",
+     "montantHorizon": 2561,
+     "montant": 3658,
+     "provenance": "bfp",
+     "parti": "Ecolo",
+     "credibilite": 2,
+     "ligneRouge": [
+      "mr",
+      "nva"
+     ]
+    },
+    {
+     "id": "BFP-135",
+     "slug": "reduire-les-dotations-aux-communautes",
+     "titre": "Réduire les dotations aux Communautés",
+     "type": "mesure",
+     "famille": "transfert",
+     "montantHorizon": 2100,
+     "montant": 3000,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-215",
+     "slug": "prolonger-le-centim-index",
+     "titre": "Prolonger le centim'index",
+     "type": "mesure",
+     "famille": "index",
+     "montantHorizon": 883,
+     "montant": 883,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-028",
+     "slug": "maintenir-la-norme-sante-a-2-5",
+     "titre": "Maintenir la norme santé à 2,5 %",
+     "type": "mesure",
+     "famille": "sante",
+     "montantHorizon": -1244,
+     "montant": -1244,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-024",
+     "slug": "ne-plus-indexer-les-tres-hautes-pensions",
+     "titre": "Ne plus indexer les très hautes pensions",
+     "type": "mesure",
+     "famille": "pensions",
+     "montantHorizon": 841,
+     "montant": 841,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-226",
+     "slug": "bonus-malus-actuariel-sur-les-pensions",
+     "titre": "Bonus-malus actuariel sur les pensions",
+     "type": "mesure",
+     "famille": "pensions",
+     "montantHorizon": 600,
+     "montant": 1500,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 2,
+     "ligneRouge": [
+      "vooruit"
+     ]
+    }
+   ],
+   "affiche": 11476,
+   "reel": 354,
+   "ecart": 11122,
+   "partRealisee": 0.030807502126176372,
+   "credibilite": 1,
+   "rue": 50,
+   "cohesion": {
+    "nva": 68,
+    "mr": 48,
+    "vooruit": 59,
+    "cdv": 50,
+    "le": 45
+   },
+   "cohesionMin": 45,
+   "mention": "E",
+   "nbMethode": 0,
+   "nbMesures": 8,
+   "lien": "eyJtIjoiY29uY2xhdmUiLCJnIjoyMDI2LCJuIjoxLCJhIjpbIkJGUC0wMzMiLCJCRlAtMDE2IiwiQkZQLTAwNSIsIkJGUC0xMzUiLCJCRlAtMjE1IiwiQkZQLTAyOCIsIkJGUC0wMjQiLCJCRlAtMjI2Il0sImIiOlsibnZhIiwibXIiLCJ2b29ydWl0IiwiY2R2IiwibGUiXX0",
+   "objectifVise": 10000,
+   "mode": "conclave",
+   "validation": {
+    "reelMedian": 618,
+    "reelMin": 0,
+    "reelMax": 1405,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  },
+  "vingt-trois": {
+   "actions": 23,
+   "bilaterales": [],
+   "cartes": [
+    {
+     "id": "BFP-010",
+     "slug": "requalifier-la-remuneration-alternative",
+     "titre": "Requalifier la rémunération alternative",
+     "type": "mesure",
+     "famille": "remuneration-alternative",
+     "montantHorizon": 3816,
+     "montant": 5452,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": [
+      "mr"
+     ]
+    },
+    {
+     "id": "BFP-008",
+     "slug": "contribution-sur-les-gains-de-patrimoine",
+     "titre": "Contribution sur les gains de patrimoine",
+     "type": "mesure",
+     "famille": "globalisation",
+     "montantHorizon": 4506,
+     "montant": 11265,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 2,
+     "ligneRouge": [
+      "mr",
+      "nva"
+     ]
+    },
+    {
+     "id": "BFP-029",
+     "slug": "aligner-la-sante-sur-la-croissance",
+     "titre": "Aligner la santé sur la croissance",
+     "type": "mesure",
+     "famille": "sante",
+     "montantHorizon": 3176,
+     "montant": 4537,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": [
+      "vooruit",
+      "cdv"
+     ]
+    },
+    {
+     "id": "BFP-082",
+     "slug": "refondre-les-taux-de-tva",
+     "titre": "Refondre les taux de TVA",
+     "type": "mesure",
+     "famille": "tva",
+     "montantHorizon": 2700,
+     "montant": 3000,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 5,
+     "ligneRouge": [
+      "mr"
+     ]
+    },
+    {
+     "id": "BFP-116",
+     "slug": "raboter-le-cout-de-la-fonction-publique",
+     "titre": "Raboter le coût de la fonction publique",
+     "type": "mesure",
+     "famille": "fonction-publique",
+     "montantHorizon": 1200,
+     "montant": 1200,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-023",
+     "slug": "reformer-l-exoneration-enfants-a-charge",
+     "titre": "Réformer l'exonération enfants à charge",
+     "type": "mesure",
+     "famille": "familles",
+     "montantHorizon": 1785,
+     "montant": 1983,
+     "provenance": "bfp",
+     "parti": "Les Engagés",
+     "credibilite": 4,
+     "ligneRouge": [
+      "cdv"
+     ]
+    },
+    {
+     "id": "BFP-012",
+     "slug": "taxer-les-plus-values",
+     "titre": "Taxer les plus-values",
+     "type": "mesure",
+     "famille": "plus-values",
+     "montantHorizon": 2022,
+     "montant": 2889,
+     "provenance": "bfp",
+     "parti": "Les Engagés",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-034",
+     "slug": "tailler-dans-les-subsides-federaux",
+     "titre": "Tailler dans les subsides fédéraux",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 1162,
+     "montant": 1291,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-035",
+     "slug": "reduire-la-cooperation-au-developpement",
+     "titre": "Réduire la coopération au développement",
+     "type": "mesure",
+     "famille": "international",
+     "montantHorizon": 1432,
+     "montant": 1432,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-009",
+     "slug": "resserrer-les-rdt-a-l-impot-des-societes",
+     "titre": "Resserrer les RDT à l'impôt des sociétés",
+     "type": "mesure",
+     "famille": "societes",
+     "montantHorizon": 945,
+     "montant": 1050,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-218",
+     "slug": "spending-reviews-a-la-neerlandaise",
+     "titre": "Spending reviews à la néerlandaise",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-217",
+     "slug": "norme-de-depenses-avec-ancre-de-dette",
+     "titre": "Norme de dépenses avec ancre de dette",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-030",
+     "slug": "norme-sante-ramenee-a-1-5",
+     "titre": "Norme santé ramenée à 1,5 %",
+     "type": "mesure",
+     "famille": "sante",
+     "montantHorizon": 2277,
+     "montant": 3253,
+     "provenance": "bfp",
+     "parti": "Open VLD",
+     "credibilite": 4,
+     "ligneRouge": [
+      "vooruit",
+      "cdv"
+     ]
+    },
+    {
+     "id": "BFP-039",
+     "slug": "sortir-des-subsides-fossiles-au-transport",
+     "titre": "Sortir des subsides fossiles au transport",
+     "type": "mesure",
+     "famille": "ecofiscalite",
+     "montantHorizon": 879,
+     "montant": 1256,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-258",
+     "slug": "assumer-des-hypotheses-macro-realistes",
+     "titre": "Assumer des hypothèses macro réalistes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-216",
+     "slug": "professionnaliser-le-cycle-budgetaire",
+     "titre": "Professionnaliser le cycle budgétaire",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-209",
+     "slug": "forfaits-par-pathologie",
+     "titre": "Forfaits par pathologie",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-199",
+     "slug": "appliquer-les-avis-de-la-cour-des-comptes",
+     "titre": "Appliquer les avis de la Cour des comptes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-228",
+     "slug": "supprimer-les-soins-de-faible-valeur",
+     "titre": "Supprimer les soins de faible valeur",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-011",
+     "slug": "borner-l-aide-au-premier-engagement",
+     "titre": "Borner l'aide au premier engagement",
+     "type": "mesure",
+     "famille": "emploi",
+     "montantHorizon": 446,
+     "montant": 495,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-022",
+     "slug": "reintegrer-les-malades-de-longue-duree",
+     "titre": "Réintégrer les malades de longue durée",
+     "type": "mesure",
+     "famille": "incapacite",
+     "montantHorizon": 402,
+     "montant": 574,
+     "provenance": "bfp",
+     "parti": "CD&V",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-219",
+     "slug": "clauses-de-caducite-sur-les-depenses-fiscales",
+     "titre": "Clauses de caducité sur les dépenses fiscales",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-204",
+     "slug": "durcir-la-taxe-caiman",
+     "titre": "Durcir la taxe Caïman",
+     "type": "mesure",
+     "famille": "fraude",
+     "montantHorizon": 225,
+     "montant": 250,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    }
+   ],
+   "affiche": 26973,
+   "reel": 16790,
+   "ecart": 10183,
+   "partRealisee": 0.6224633388944498,
+   "credibilite": 100,
+   "rue": 73,
+   "cohesion": {
+    "nva": 100,
+    "mr": 57,
+    "vooruit": 100,
+    "cdv": 97,
+    "le": 100
+   },
+   "cohesionMin": 57,
+   "mention": "B",
+   "nbMethode": 8,
+   "nbMesures": 15,
+   "lien": "eyJtIjoiaG9ubmV0ZSIsImciOjIwMjYsIm4iOjEsImEiOlsiQkZQLTAxMCIsIkJGUC0wMDgiLCJCRlAtMDI5IiwiQkZQLTA4MiIsIkJGUC0xMTYiLCJCRlAtMDIzIiwiQkZQLTAxMiIsIkJGUC0wMzQiLCJCRlAtMDM1IiwiQkZQLTAwOSIsIkJGUC0yMTgiLCJCRlAtMjE3IiwiQkZQLTAzMCIsIkJGUC0wMzkiLCJCRlAtMjU4IiwiQkZQLTIxNiIsIkJGUC0yMDkiLCJCRlAtMTk5IiwiQkZQLTIyOCIsIkJGUC0wMTEiLCJCRlAtMDIyIiwiQkZQLTIxOSIsIkJGUC0yMDQiXSwiYiI6W119",
+   "objectifVise": 23000,
+   "mode": "honnete",
+   "validation": {
+    "reelMedian": 16459,
+    "reelMin": 10471,
+    "reelMax": 20594,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  },
+  "marge": {
+   "actions": 14,
+   "bilaterales": [],
+   "cartes": [
+    {
+     "id": "BFP-010",
+     "slug": "requalifier-la-remuneration-alternative",
+     "titre": "Requalifier la rémunération alternative",
+     "type": "mesure",
+     "famille": "remuneration-alternative",
+     "montantHorizon": 3816,
+     "montant": 5452,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": [
+      "mr"
+     ]
+    },
+    {
+     "id": "BFP-029",
+     "slug": "aligner-la-sante-sur-la-croissance",
+     "titre": "Aligner la santé sur la croissance",
+     "type": "mesure",
+     "famille": "sante",
+     "montantHorizon": 3176,
+     "montant": 4537,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": [
+      "vooruit",
+      "cdv"
+     ]
+    },
+    {
+     "id": "BFP-082",
+     "slug": "refondre-les-taux-de-tva",
+     "titre": "Refondre les taux de TVA",
+     "type": "mesure",
+     "famille": "tva",
+     "montantHorizon": 2700,
+     "montant": 3000,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 5,
+     "ligneRouge": [
+      "mr"
+     ]
+    },
+    {
+     "id": "BFP-218",
+     "slug": "spending-reviews-a-la-neerlandaise",
+     "titre": "Spending reviews à la néerlandaise",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-023",
+     "slug": "reformer-l-exoneration-enfants-a-charge",
+     "titre": "Réformer l'exonération enfants à charge",
+     "type": "mesure",
+     "famille": "familles",
+     "montantHorizon": 1785,
+     "montant": 1983,
+     "provenance": "bfp",
+     "parti": "Les Engagés",
+     "credibilite": 4,
+     "ligneRouge": [
+      "cdv"
+     ]
+    },
+    {
+     "id": "BFP-035",
+     "slug": "reduire-la-cooperation-au-developpement",
+     "titre": "Réduire la coopération au développement",
+     "type": "mesure",
+     "famille": "international",
+     "montantHorizon": 1432,
+     "montant": 1432,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-116",
+     "slug": "raboter-le-cout-de-la-fonction-publique",
+     "titre": "Raboter le coût de la fonction publique",
+     "type": "mesure",
+     "famille": "fonction-publique",
+     "montantHorizon": 1200,
+     "montant": 1200,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-037",
+     "slug": "rationaliser-les-subsides-aux-entreprises",
+     "titre": "Rationaliser les subsides aux entreprises",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 842,
+     "montant": 936,
+     "provenance": "bfp",
+     "parti": "Vooruit",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-217",
+     "slug": "norme-de-depenses-avec-ancre-de-dette",
+     "titre": "Norme de dépenses avec ancre de dette",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-258",
+     "slug": "assumer-des-hypotheses-macro-realistes",
+     "titre": "Assumer des hypothèses macro réalistes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-219",
+     "slug": "clauses-de-caducite-sur-les-depenses-fiscales",
+     "titre": "Clauses de caducité sur les dépenses fiscales",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-216",
+     "slug": "professionnaliser-le-cycle-budgetaire",
+     "titre": "Professionnaliser le cycle budgétaire",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-224",
+     "slug": "auditer-les-subsides-au-precompte",
+     "titre": "Auditer les subsides au précompte",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-199",
+     "slug": "appliquer-les-avis-de-la-cour-des-comptes",
+     "titre": "Appliquer les avis de la Cour des comptes",
+     "type": "methode",
+     "famille": "methode",
+     "montantHorizon": 0,
+     "montant": 0,
+     "provenance": null,
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    }
+   ],
+   "affiche": 14951,
+   "reel": 10974,
+   "ecart": 3977,
+   "partRealisee": 0.7339872597150692,
+   "credibilite": 100,
+   "rue": 66,
+   "cohesion": {
+    "nva": 100,
+    "mr": 63,
+    "vooruit": 84,
+    "cdv": 83,
+    "le": 100
+   },
+   "cohesionMin": 63,
+   "mention": "A",
+   "nbMethode": 7,
+   "nbMesures": 7,
+   "lien": "eyJtIjoiY29uY2xhdmUiLCJnIjoyMDI2LCJuIjoxLCJhIjpbIkJGUC0wMTAiLCJCRlAtMDI5IiwiQkZQLTA4MiIsIkJGUC0yMTgiLCJCRlAtMDIzIiwiQkZQLTAzNSIsIkJGUC0xMTYiLCJCRlAtMDM3IiwiQkZQLTIxNyIsIkJGUC0yNTgiLCJCRlAtMjE5IiwiQkZQLTIxNiIsIkJGUC0yMjQiLCJCRlAtMTk5Il0sImIiOltdfQ",
+   "objectifVise": 12500,
+   "mode": "conclave",
+   "validation": {
+    "reelMedian": 10605,
+    "reelMin": 4628,
+    "reelMax": 12981,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  },
+  "vingt-trois-sans-ligne-rouge": {
+   "actions": 22,
+   "bilaterales": [],
+   "cartes": [
+    {
+     "id": "BFP-033",
+     "slug": "vendre-les-participations-publiques",
+     "titre": "Vendre les participations publiques",
+     "type": "mesure",
+     "famille": "one-shot",
+     "montantHorizon": 3000,
+     "montant": 15000,
+     "provenance": "bfp",
+     "parti": "VB",
+     "credibilite": 1,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-012",
+     "slug": "taxer-les-plus-values",
+     "titre": "Taxer les plus-values",
+     "type": "mesure",
+     "famille": "plus-values",
+     "montantHorizon": 2022,
+     "montant": 2889,
+     "provenance": "bfp",
+     "parti": "Les Engagés",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-015",
+     "slug": "taxer-les-plus-values-variante-ps",
+     "titre": "Taxer les plus-values (variante PS)",
+     "type": "mesure",
+     "famille": "plus-values",
+     "montantHorizon": 2022,
+     "montant": 2889,
+     "provenance": "bfp",
+     "parti": "PS",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-135",
+     "slug": "reduire-les-dotations-aux-communautes",
+     "titre": "Réduire les dotations aux Communautés",
+     "type": "mesure",
+     "famille": "transfert",
+     "montantHorizon": 2100,
+     "montant": 3000,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-021",
+     "slug": "plus-values-sur-actions",
+     "titre": "Plus-values sur actions",
+     "type": "mesure",
+     "famille": "plus-values",
+     "montantHorizon": 2022,
+     "montant": 2889,
+     "provenance": "bfp",
+     "parti": "Vooruit",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-038",
+     "slug": "ceder-les-participations-non-strategiques",
+     "titre": "Céder les participations non stratégiques",
+     "type": "mesure",
+     "famille": "one-shot",
+     "montantHorizon": 2000,
+     "montant": 10000,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 1,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-035",
+     "slug": "reduire-la-cooperation-au-developpement",
+     "titre": "Réduire la coopération au développement",
+     "type": "mesure",
+     "famille": "international",
+     "montantHorizon": 1432,
+     "montant": 1432,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-116",
+     "slug": "raboter-le-cout-de-la-fonction-publique",
+     "titre": "Raboter le coût de la fonction publique",
+     "type": "mesure",
+     "famille": "fonction-publique",
+     "montantHorizon": 1200,
+     "montant": 1200,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "ART-report-2031",
+     "slug": null,
+     "titre": "Reporter une partie de l'effort à 2031",
+     "type": "artifice",
+     "famille": "artifice",
+     "montantHorizon": 1500,
+     "montant": 1500,
+     "provenance": "artifice",
+     "parti": null,
+     "credibilite": 2,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-034",
+     "slug": "tailler-dans-les-subsides-federaux",
+     "titre": "Tailler dans les subsides fédéraux",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 1162,
+     "montant": 1291,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-009",
+     "slug": "resserrer-les-rdt-a-l-impot-des-societes",
+     "titre": "Resserrer les RDT à l'impôt des sociétés",
+     "type": "mesure",
+     "famille": "societes",
+     "montantHorizon": 945,
+     "montant": 1050,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-152",
+     "slug": "reorienter-l-effort-de-defense",
+     "titre": "Réorienter l'effort de défense",
+     "type": "mesure",
+     "famille": "defense",
+     "montantHorizon": 1050,
+     "montant": 1500,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 2,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-039",
+     "slug": "sortir-des-subsides-fossiles-au-transport",
+     "titre": "Sortir des subsides fossiles au transport",
+     "type": "mesure",
+     "famille": "ecofiscalite",
+     "montantHorizon": 879,
+     "montant": 1256,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-215",
+     "slug": "prolonger-le-centim-index",
+     "titre": "Prolonger le centim'index",
+     "type": "mesure",
+     "famille": "index",
+     "montantHorizon": 883,
+     "montant": 883,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-037",
+     "slug": "rationaliser-les-subsides-aux-entreprises",
+     "titre": "Rationaliser les subsides aux entreprises",
+     "type": "mesure",
+     "famille": "subsides",
+     "montantHorizon": 842,
+     "montant": 936,
+     "provenance": "bfp",
+     "parti": "Vooruit",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-249",
+     "slug": "supprimer-l-avantage-du-troisieme-pilier",
+     "titre": "Supprimer l'avantage du troisième pilier",
+     "type": "mesure",
+     "famille": "niches",
+     "montantHorizon": 700,
+     "montant": 1000,
+     "provenance": "analyse",
+     "parti": null,
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-032",
+     "slug": "reduire-la-facture-asile",
+     "titre": "Réduire la facture asile",
+     "type": "mesure",
+     "famille": "migration",
+     "montantHorizon": 644,
+     "montant": 716,
+     "provenance": "bfp",
+     "parti": "VB",
+     "credibilite": 2,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-018",
+     "slug": "taxe-sur-les-surprofits-bancaires",
+     "titre": "Taxe sur les surprofits bancaires",
+     "type": "mesure",
+     "famille": "societes",
+     "montantHorizon": 640,
+     "montant": 640,
+     "provenance": "bfp",
+     "parti": "PVDA-PTB",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-031",
+     "slug": "responsabiliser-sur-l-incapacite",
+     "titre": "Responsabiliser sur l'incapacité",
+     "type": "mesure",
+     "famille": "incapacite",
+     "montantHorizon": 557,
+     "montant": 796,
+     "provenance": "bfp",
+     "parti": "N-VA",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-027",
+     "slug": "abaisser-le-plafond-de-pension",
+     "titre": "Abaisser le plafond de pension",
+     "type": "mesure",
+     "famille": "pensions",
+     "montantHorizon": 552,
+     "montant": 788,
+     "provenance": "bfp",
+     "parti": "VB",
+     "credibilite": 3,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-011",
+     "slug": "borner-l-aide-au-premier-engagement",
+     "titre": "Borner l'aide au premier engagement",
+     "type": "mesure",
+     "famille": "emploi",
+     "montantHorizon": 446,
+     "montant": 495,
+     "provenance": "bfp",
+     "parti": "Groen",
+     "credibilite": 4,
+     "ligneRouge": []
+    },
+    {
+     "id": "BFP-022",
+     "slug": "reintegrer-les-malades-de-longue-duree",
+     "titre": "Réintégrer les malades de longue durée",
+     "type": "mesure",
+     "famille": "incapacite",
+     "montantHorizon": 402,
+     "montant": 574,
+     "provenance": "bfp",
+     "parti": "CD&V",
+     "credibilite": 3,
+     "ligneRouge": []
+    }
+   ],
+   "affiche": 27000,
+   "reel": 7131,
+   "ecart": 19869,
+   "partRealisee": 0.2641089118564814,
+   "credibilite": 1,
+   "rue": 66,
+   "cohesion": {
+    "nva": 100,
+    "mr": 50,
+    "vooruit": 100,
+    "cdv": 70,
+    "le": 75
+   },
+   "cohesionMin": 50,
+   "mention": "E",
+   "nbMethode": 0,
+   "nbMesures": 21,
+   "lien": "eyJtIjoiaG9ubmV0ZSIsImciOjIwMjYsIm4iOjEsImEiOlsiQkZQLTAzMyIsIkJGUC0wMTIiLCJCRlAtMDE1IiwiQkZQLTEzNSIsIkJGUC0wMjEiLCJCRlAtMDM4IiwiQkZQLTAzNSIsIkJGUC0xMTYiLCJBUlQtcmVwb3J0LTIwMzEiLCJCRlAtMDM0IiwiQkZQLTAwOSIsIkJGUC0xNTIiLCJCRlAtMDM5IiwiQkZQLTIxNSIsIkJGUC0wMzciLCJCRlAtMjQ5IiwiQkZQLTAzMiIsIkJGUC0wMTgiLCJCRlAtMDMxIiwiQkZQLTAyNyIsIkJGUC0wMTEiLCJCRlAtMDIyIl0sImIiOltdfQ",
+   "objectifVise": 23000,
+   "mode": "honnete",
+   "validation": {
+    "reelMedian": 7257,
+    "reelMin": 5744,
+    "reelMax": 8370,
+    "ruptures": 0,
+    "tirages": 60
+   }
+  }
+ },
+ "plafondSansLigneRouge": {
+  "affiche": 28854,
+  "reel": 7277,
+  "actions": 24,
+  "cohesionMin": 45
+ },
+ "stats": {
+  "lignesRougesParParti": {
+   "nva": 10,
+   "mr": 17,
+   "vooruit": 6,
+   "cdv": 4,
+   "le": 0
+  },
+  "hostiliteMoyenne": {
+   "nva": -0.17,
+   "mr": -0.96,
+   "vooruit": 0.74,
+   "cdv": -0.63,
+   "le": -0.22
+  },
+  "rendementCohesion": [
+   {
+    "id": "BFP-022",
+    "slug": "reintegrer-les-malades-de-longue-duree",
+    "titre": "Réintégrer les malades de longue durée",
+    "md": 0.4,
+    "coutCohesion": 0,
+    "parMilliard": 0,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-034",
+    "slug": "tailler-dans-les-subsides-federaux",
+    "titre": "Tailler dans les subsides fédéraux",
+    "md": 1.16,
+    "coutCohesion": 0,
+    "parMilliard": 0,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-223",
+    "slug": "offensive-sur-l-ecart-de-tva",
+    "titre": "Offensive sur l'écart de TVA",
+    "md": 0.3,
+    "coutCohesion": 0,
+    "parMilliard": 0,
+    "credibilite": 1,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-033",
+    "slug": "vendre-les-participations-publiques",
+    "titre": "Vendre les participations publiques",
+    "md": 3,
+    "coutCohesion": 10,
+    "parMilliard": 3,
+    "credibilite": 1,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-116",
+    "slug": "raboter-le-cout-de-la-fonction-publique",
+    "titre": "Raboter le coût de la fonction publique",
+    "md": 1.2,
+    "coutCohesion": 5,
+    "parMilliard": 4,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-038",
+    "slug": "ceder-les-participations-non-strategiques",
+    "titre": "Céder les participations non stratégiques",
+    "md": 2,
+    "coutCohesion": 10,
+    "parMilliard": 5,
+    "credibilite": 1,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-024",
+    "slug": "ne-plus-indexer-les-tres-hautes-pensions",
+    "titre": "Ne plus indexer les très hautes pensions",
+    "md": 0.84,
+    "coutCohesion": 5,
+    "parMilliard": 6,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-234",
+    "slug": "rabot-de-10-sur-les-subsides-economiques",
+    "titre": "Rabot de 10 % sur les subsides économiques",
+    "md": 0.79,
+    "coutCohesion": 5,
+    "parMilliard": 6,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-135",
+    "slug": "reduire-les-dotations-aux-communautes",
+    "titre": "Réduire les dotations aux Communautés",
+    "md": 2.1,
+    "coutCohesion": 15,
+    "parMilliard": 7,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-031",
+    "slug": "responsabiliser-sur-l-incapacite",
+    "titre": "Responsabiliser sur l'incapacité",
+    "md": 0.56,
+    "coutCohesion": 5,
+    "parMilliard": 9,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-012",
+    "slug": "taxer-les-plus-values",
+    "titre": "Taxer les plus-values",
+    "md": 2.02,
+    "coutCohesion": 20,
+    "parMilliard": 10,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-010",
+    "slug": "requalifier-la-remuneration-alternative",
+    "titre": "Requalifier la rémunération alternative",
+    "md": 3.82,
+    "coutCohesion": 41,
+    "parMilliard": 11,
+    "credibilite": 4,
+    "ligneRouge": [
+     "mr"
+    ]
+   },
+   {
+    "id": "BFP-082",
+    "slug": "refondre-les-taux-de-tva",
+    "titre": "Refondre les taux de TVA",
+    "md": 2.7,
+    "coutCohesion": 31,
+    "parMilliard": 11,
+    "credibilite": 5,
+    "ligneRouge": [
+     "mr"
+    ]
+   },
+   {
+    "id": "BFP-014",
+    "slug": "taxer-le-patrimoine",
+    "titre": "Taxer le patrimoine",
+    "md": 5.29,
+    "coutCohesion": 62,
+    "parMilliard": 12,
+    "credibilite": 2,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-015",
+    "slug": "taxer-les-plus-values-variante-ps",
+    "titre": "Taxer les plus-values (variante PS)",
+    "md": 2.02,
+    "coutCohesion": 25,
+    "parMilliard": 12,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-021",
+    "slug": "plus-values-sur-actions",
+    "titre": "Plus-values sur actions",
+    "md": 2.02,
+    "coutCohesion": 25,
+    "parMilliard": 12,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-037",
+    "slug": "rationaliser-les-subsides-aux-entreprises",
+    "titre": "Rationaliser les subsides aux entreprises",
+    "md": 0.84,
+    "coutCohesion": 10,
+    "parMilliard": 12,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-008",
+    "slug": "contribution-sur-les-gains-de-patrimoine",
+    "titre": "Contribution sur les gains de patrimoine",
+    "md": 4.51,
+    "coutCohesion": 62,
+    "parMilliard": 14,
+    "credibilite": 2,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-019",
+    "slug": "globaliser-les-revenus-du-capital",
+    "titre": "Globaliser les revenus du capital",
+    "md": 3.88,
+    "coutCohesion": 57,
+    "parMilliard": 15,
+    "credibilite": 2,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-009",
+    "slug": "resserrer-les-rdt-a-l-impot-des-societes",
+    "titre": "Resserrer les RDT à l'impôt des sociétés",
+    "md": 0.94,
+    "coutCohesion": 15,
+    "parMilliard": 16,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-144",
+    "slug": "saut-d-index-generalise",
+    "titre": "Saut d'index généralisé",
+    "md": 2.4,
+    "coutCohesion": 46,
+    "parMilliard": 19,
+    "credibilite": 4,
+    "ligneRouge": [
+     "vooruit"
+    ]
+   },
+   {
+    "id": "BFP-006",
+    "slug": "fin-de-la-voiture-salaire",
+    "titre": "Fin de la voiture-salaire",
+    "md": 2.08,
+    "coutCohesion": 41,
+    "parMilliard": 20,
+    "credibilite": 4,
+    "ligneRouge": [
+     "mr"
+    ]
+   },
+   {
+    "id": "BFP-029",
+    "slug": "aligner-la-sante-sur-la-croissance",
+    "titre": "Aligner la santé sur la croissance",
+    "md": 3.18,
+    "coutCohesion": 62,
+    "parMilliard": 20,
+    "credibilite": 4,
+    "ligneRouge": [
+     "vooruit",
+     "cdv"
+    ]
+   },
+   {
+    "id": "BFP-003",
+    "slug": "globaliser-revenus-financiers-et-loyers",
+    "titre": "Globaliser revenus financiers et loyers",
+    "md": 2.55,
+    "coutCohesion": 57,
+    "parMilliard": 22,
+    "credibilite": 3,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-004",
+    "slug": "globaliser-travail-et-capital",
+    "titre": "Globaliser travail et capital",
+    "md": 2.55,
+    "coutCohesion": 57,
+    "parMilliard": 22,
+    "credibilite": 3,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-204",
+    "slug": "durcir-la-taxe-caiman",
+    "titre": "Durcir la taxe Caïman",
+    "md": 0.23,
+    "coutCohesion": 5,
+    "parMilliard": 22,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-002",
+    "slug": "supprimer-les-niches-de-l-ipp",
+    "titre": "Supprimer les niches de l'IPP",
+    "md": 1.78,
+    "coutCohesion": 41,
+    "parMilliard": 23,
+    "credibilite": 4,
+    "ligneRouge": [
+     "mr"
+    ]
+   },
+   {
+    "id": "BFP-017",
+    "slug": "plus-values-financieres-a-30",
+    "titre": "Plus-values financières à 30 %",
+    "md": 2.64,
+    "coutCohesion": 62,
+    "parMilliard": 23,
+    "credibilite": 2,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-018",
+    "slug": "taxe-sur-les-surprofits-bancaires",
+    "titre": "Taxe sur les surprofits bancaires",
+    "md": 0.64,
+    "coutCohesion": 15,
+    "parMilliard": 23,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-215",
+    "slug": "prolonger-le-centim-index",
+    "titre": "Prolonger le centim'index",
+    "md": 0.88,
+    "coutCohesion": 20,
+    "parMilliard": 23,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-005",
+    "slug": "contribution-sur-les-patrimoines-1-m",
+    "titre": "Contribution sur les patrimoines > 1 M€",
+    "md": 2.56,
+    "coutCohesion": 62,
+    "parMilliard": 24,
+    "credibilite": 2,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-035",
+    "slug": "reduire-la-cooperation-au-developpement",
+    "titre": "Réduire la coopération au développement",
+    "md": 1.43,
+    "coutCohesion": 35,
+    "parMilliard": 24,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-013",
+    "slug": "globaliser-les-revenus",
+    "titre": "Globaliser les revenus",
+    "md": 2.26,
+    "coutCohesion": 57,
+    "parMilliard": 25,
+    "credibilite": 3,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-016",
+    "slug": "taxe-des-millionnaires",
+    "titre": "Taxe des millionnaires",
+    "md": 2.73,
+    "coutCohesion": 72,
+    "parMilliard": 26,
+    "credibilite": 2,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-023",
+    "slug": "reformer-l-exoneration-enfants-a-charge",
+    "titre": "Réformer l'exonération enfants à charge",
+    "md": 1.78,
+    "coutCohesion": 46,
+    "parMilliard": 26,
+    "credibilite": 4,
+    "ligneRouge": [
+     "cdv"
+    ]
+   },
+   {
+    "id": "BFP-027",
+    "slug": "abaisser-le-plafond-de-pension",
+    "titre": "Abaisser le plafond de pension",
+    "md": 0.55,
+    "coutCohesion": 15,
+    "parMilliard": 27,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-030",
+    "slug": "norme-sante-ramenee-a-1-5",
+    "titre": "Norme santé ramenée à 1,5 %",
+    "md": 2.28,
+    "coutCohesion": 62,
+    "parMilliard": 27,
+    "credibilite": 4,
+    "ligneRouge": [
+     "vooruit",
+     "cdv"
+    ]
+   },
+   {
+    "id": "BFP-026",
+    "slug": "cotiser-sur-toute-remuneration-alternative",
+    "titre": "Cotiser sur toute rémunération alternative",
+    "md": 1.44,
+    "coutCohesion": 41,
+    "parMilliard": 28,
+    "credibilite": 4,
+    "ligneRouge": [
+     "mr"
+    ]
+   },
+   {
+    "id": "BFP-007",
+    "slug": "taxe-millionnaires-via-l-effectentaks",
+    "titre": "Taxe millionnaires via l'effectentaks",
+    "md": 1.81,
+    "coutCohesion": 52,
+    "parMilliard": 29,
+    "credibilite": 3,
+    "ligneRouge": [
+     "mr",
+     "nva"
+    ]
+   },
+   {
+    "id": "BFP-032",
+    "slug": "reduire-la-facture-asile",
+    "titre": "Réduire la facture asile",
+    "md": 0.64,
+    "coutCohesion": 20,
+    "parMilliard": 31,
+    "credibilite": 2,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-011",
+    "slug": "borner-l-aide-au-premier-engagement",
+    "titre": "Borner l'aide au premier engagement",
+    "md": 0.45,
+    "coutCohesion": 15,
+    "parMilliard": 34,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-039",
+    "slug": "sortir-des-subsides-fossiles-au-transport",
+    "titre": "Sortir des subsides fossiles au transport",
+    "md": 0.88,
+    "coutCohesion": 30,
+    "parMilliard": 34,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-242",
+    "slug": "relever-la-taxe-sur-les-comptes-titres",
+    "titre": "Relever la taxe sur les comptes-titres",
+    "md": 1,
+    "coutCohesion": 36,
+    "parMilliard": 36,
+    "credibilite": 3,
+    "ligneRouge": [
+     "mr"
+    ]
+   },
+   {
+    "id": "BFP-152",
+    "slug": "reorienter-l-effort-de-defense",
+    "titre": "Réorienter l'effort de défense",
+    "md": 1.05,
+    "coutCohesion": 40,
+    "parMilliard": 38,
+    "credibilite": 2,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-036",
+    "slug": "limiter-l-afflux-migratoire",
+    "titre": "Limiter l'afflux migratoire",
+    "md": 0.49,
+    "coutCohesion": 20,
+    "parMilliard": 41,
+    "credibilite": 2,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-040",
+    "slug": "supprimer-le-diesel-professionnel",
+    "titre": "Supprimer le diesel professionnel",
+    "md": 0.58,
+    "coutCohesion": 30,
+    "parMilliard": 52,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-249",
+    "slug": "supprimer-l-avantage-du-troisieme-pilier",
+    "titre": "Supprimer l'avantage du troisième pilier",
+    "md": 0.7,
+    "coutCohesion": 40,
+    "parMilliard": 57,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-226",
+    "slug": "bonus-malus-actuariel-sur-les-pensions",
+    "titre": "Bonus-malus actuariel sur les pensions",
+    "md": 0.6,
+    "coutCohesion": 41,
+    "parMilliard": 68,
+    "credibilite": 2,
+    "ligneRouge": [
+     "vooruit"
+    ]
+   },
+   {
+    "id": "BFP-207",
+    "slug": "deplafonner-les-cotisations-patronales",
+    "titre": "Déplafonner les cotisations patronales",
+    "md": 0.36,
+    "coutCohesion": 25,
+    "parMilliard": 69,
+    "credibilite": 3,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-245",
+    "slug": "limiter-les-reductions-de-cotisations",
+    "titre": "Limiter les réductions de cotisations",
+    "md": 0.35,
+    "coutCohesion": 25,
+    "parMilliard": 71,
+    "credibilite": 4,
+    "ligneRouge": []
+   },
+   {
+    "id": "BFP-020",
+    "slug": "taxer-les-loyers-reels",
+    "titre": "Taxer les loyers réels",
+    "md": 0.47,
+    "coutCohesion": 41,
+    "parMilliard": 87,
+    "credibilite": 3,
+    "ligneRouge": [
+     "mr"
+    ]
+   },
+   {
+    "id": "BFP-025",
+    "slug": "durcir-le-revenu-d-integration",
+    "titre": "Durcir le revenu d'intégration",
+    "md": 0.46,
+    "coutCohesion": 46,
+    "parMilliard": 101,
+    "credibilite": 3,
+    "ligneRouge": [
+     "vooruit"
+    ]
+   },
+   {
+    "id": "BFP-089",
+    "slug": "relever-le-ticket-moderateur",
+    "titre": "Relever le ticket modérateur",
+    "md": 0.27,
+    "coutCohesion": 62,
+    "parMilliard": 230,
+    "credibilite": 3,
+    "ligneRouge": [
+     "vooruit",
+     "cdv"
+    ]
+   }
+  ],
+  "deperdition": [
+   {
+    "id": "BFP-033",
+    "slug": "vendre-les-participations-publiques",
+    "titre": "Vendre les participations publiques",
+    "brut": 3000,
+    "reel": 0,
+    "perte": 1
+   },
+   {
+    "id": "BFP-038",
+    "slug": "ceder-les-participations-non-strategiques",
+    "titre": "Céder les participations non stratégiques",
+    "brut": 2000,
+    "reel": 0,
+    "perte": 1
+   },
+   {
+    "id": "BFP-135",
+    "slug": "reduire-les-dotations-aux-communautes",
+    "titre": "Réduire les dotations aux Communautés",
+    "brut": 2100,
+    "reel": 0,
+    "perte": 1
+   },
+   {
+    "id": "BFP-025",
+    "slug": "durcir-le-revenu-d-integration",
+    "titre": "Durcir le revenu d'intégration",
+    "brut": 456,
+    "reel": 68,
+    "perte": 0.851
+   },
+   {
+    "id": "BFP-215",
+    "slug": "prolonger-le-centim-index",
+    "titre": "Prolonger le centim'index",
+    "brut": 883,
+    "reel": 180,
+    "perte": 0.796
+   },
+   {
+    "id": "BFP-024",
+    "slug": "ne-plus-indexer-les-tres-hautes-pensions",
+    "titre": "Ne plus indexer les très hautes pensions",
+    "brut": 841,
+    "reel": 201,
+    "perte": 0.761
+   },
+   {
+    "id": "BFP-144",
+    "slug": "saut-d-index-generalise",
+    "titre": "Saut d'index généralisé",
+    "brut": 2400,
+    "reel": 574,
+    "perte": 0.761
+   },
+   {
+    "id": "BFP-032",
+    "slug": "reduire-la-facture-asile",
+    "titre": "Réduire la facture asile",
+    "brut": 644,
+    "reel": 161,
+    "perte": 0.75
+   },
+   {
+    "id": "BFP-036",
+    "slug": "limiter-l-afflux-migratoire",
+    "titre": "Limiter l'afflux migratoire",
+    "brut": 493,
+    "reel": 123,
+    "perte": 0.75
+   },
+   {
+    "id": "BFP-226",
+    "slug": "bonus-malus-actuariel-sur-les-pensions",
+    "titre": "Bonus-malus actuariel sur les pensions",
+    "brut": 600,
+    "reel": 159,
+    "perte": 0.735
+   },
+   {
+    "id": "BFP-223",
+    "slug": "offensive-sur-l-ecart-de-tva",
+    "titre": "Offensive sur l'écart de TVA",
+    "brut": 300,
+    "reel": 88,
+    "perte": 0.708
+   },
+   {
+    "id": "BFP-005",
+    "slug": "contribution-sur-les-patrimoines-1-m",
+    "titre": "Contribution sur les patrimoines > 1 M€",
+    "brut": 2561,
+    "reel": 799,
+    "perte": 0.688
+   },
+   {
+    "id": "BFP-014",
+    "slug": "taxer-le-patrimoine",
+    "titre": "Taxer le patrimoine",
+    "brut": 5291,
+    "reel": 1651,
+    "perte": 0.688
+   },
+   {
+    "id": "BFP-016",
+    "slug": "taxe-des-millionnaires",
+    "titre": "Taxe des millionnaires",
+    "brut": 2735,
+    "reel": 853,
+    "perte": 0.688
+   },
+   {
+    "id": "BFP-031",
+    "slug": "responsabiliser-sur-l-incapacite",
+    "titre": "Responsabiliser sur l'incapacité",
+    "brut": 557,
+    "reel": 205,
+    "perte": 0.631
+   },
+   {
+    "id": "BFP-027",
+    "slug": "abaisser-le-plafond-de-pension",
+    "titre": "Abaisser le plafond de pension",
+    "brut": 552,
+    "reel": 215,
+    "perte": 0.61
+   },
+   {
+    "id": "BFP-008",
+    "slug": "contribution-sur-les-gains-de-patrimoine",
+    "titre": "Contribution sur les gains de patrimoine",
+    "brut": 4506,
+    "reel": 1838,
+    "perte": 0.592
+   },
+   {
+    "id": "BFP-017",
+    "slug": "plus-values-financieres-a-30",
+    "titre": "Plus-values financières à 30 %",
+    "brut": 2640,
+    "reel": 1077,
+    "perte": 0.592
+   },
+   {
+    "id": "BFP-019",
+    "slug": "globaliser-les-revenus-du-capital",
+    "titre": "Globaliser les revenus du capital",
+    "brut": 3878,
+    "reel": 1582,
+    "perte": 0.592
+   },
+   {
+    "id": "BFP-089",
+    "slug": "relever-le-ticket-moderateur",
+    "titre": "Relever le ticket modérateur",
+    "brut": 270,
+    "reel": 128,
+    "perte": 0.528
+   },
+   {
+    "id": "BFP-022",
+    "slug": "reintegrer-les-malades-de-longue-duree",
+    "titre": "Réintégrer les malades de longue durée",
+    "brut": 402,
+    "reel": 196,
+    "perte": 0.512
+   },
+   {
+    "id": "BFP-152",
+    "slug": "reorienter-l-effort-de-defense",
+    "titre": "Réorienter l'effort de défense",
+    "brut": 1050,
+    "reel": 529,
+    "perte": 0.496
+   },
+   {
+    "id": "BFP-003",
+    "slug": "globaliser-revenus-financiers-et-loyers",
+    "titre": "Globaliser revenus financiers et loyers",
+    "brut": 2548,
+    "reel": 1299,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-004",
+    "slug": "globaliser-travail-et-capital",
+    "titre": "Globaliser travail et capital",
+    "brut": 2548,
+    "reel": 1299,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-007",
+    "slug": "taxe-millionnaires-via-l-effectentaks",
+    "titre": "Taxe millionnaires via l'effectentaks",
+    "brut": 1812,
+    "reel": 924,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-012",
+    "slug": "taxer-les-plus-values",
+    "titre": "Taxer les plus-values",
+    "brut": 2022,
+    "reel": 1031,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-013",
+    "slug": "globaliser-les-revenus",
+    "titre": "Globaliser les revenus",
+    "brut": 2260,
+    "reel": 1153,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-015",
+    "slug": "taxer-les-plus-values-variante-ps",
+    "titre": "Taxer les plus-values (variante PS)",
+    "brut": 2022,
+    "reel": 1031,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-020",
+    "slug": "taxer-les-loyers-reels",
+    "titre": "Taxer les loyers réels",
+    "brut": 473,
+    "reel": 241,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-021",
+    "slug": "plus-values-sur-actions",
+    "titre": "Plus-values sur actions",
+    "brut": 2022,
+    "reel": 1031,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-242",
+    "slug": "relever-la-taxe-sur-les-comptes-titres",
+    "titre": "Relever la taxe sur les comptes-titres",
+    "brut": 1000,
+    "reel": 510,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-204",
+    "slug": "durcir-la-taxe-caiman",
+    "titre": "Durcir la taxe Caïman",
+    "brut": 225,
+    "reel": 115,
+    "perte": 0.49
+   },
+   {
+    "id": "BFP-029",
+    "slug": "aligner-la-sante-sur-la-croissance",
+    "titre": "Aligner la santé sur la croissance",
+    "brut": 3176,
+    "reel": 1996,
+    "perte": 0.372
+   },
+   {
+    "id": "BFP-030",
+    "slug": "norme-sante-ramenee-a-1-5",
+    "titre": "Norme santé ramenée à 1,5 %",
+    "brut": 2277,
+    "reel": 1431,
+    "perte": 0.372
+   },
+   {
+    "id": "BFP-207",
+    "slug": "deplafonner-les-cotisations-patronales",
+    "titre": "Déplafonner les cotisations patronales",
+    "brut": 360,
+    "reel": 227,
+    "perte": 0.37
+   },
+   {
+    "id": "BFP-249",
+    "slug": "supprimer-l-avantage-du-troisieme-pilier",
+    "titre": "Supprimer l'avantage du troisième pilier",
+    "brut": 700,
+    "reel": 441,
+    "perte": 0.37
+   },
+   {
+    "id": "BFP-082",
+    "slug": "refondre-les-taux-de-tva",
+    "titre": "Refondre les taux de TVA",
+    "brut": 2700,
+    "reel": 1781,
+    "perte": 0.34
+   },
+   {
+    "id": "BFP-002",
+    "slug": "supprimer-les-niches-de-l-ipp",
+    "titre": "Supprimer les niches de l'IPP",
+    "brut": 1784,
+    "reel": 1319,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-006",
+    "slug": "fin-de-la-voiture-salaire",
+    "titre": "Fin de la voiture-salaire",
+    "brut": 2085,
+    "reel": 1541,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-009",
+    "slug": "resserrer-les-rdt-a-l-impot-des-societes",
+    "titre": "Resserrer les RDT à l'impôt des sociétés",
+    "brut": 945,
+    "reel": 699,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-010",
+    "slug": "requalifier-la-remuneration-alternative",
+    "titre": "Requalifier la rémunération alternative",
+    "brut": 3816,
+    "reel": 2821,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-018",
+    "slug": "taxe-sur-les-surprofits-bancaires",
+    "titre": "Taxe sur les surprofits bancaires",
+    "brut": 640,
+    "reel": 473,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-023",
+    "slug": "reformer-l-exoneration-enfants-a-charge",
+    "titre": "Réformer l'exonération enfants à charge",
+    "brut": 1785,
+    "reel": 1319,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-026",
+    "slug": "cotiser-sur-toute-remuneration-alternative",
+    "titre": "Cotiser sur toute rémunération alternative",
+    "brut": 1439,
+    "reel": 1064,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-039",
+    "slug": "sortir-des-subsides-fossiles-au-transport",
+    "titre": "Sortir des subsides fossiles au transport",
+    "brut": 879,
+    "reel": 650,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-040",
+    "slug": "supprimer-le-diesel-professionnel",
+    "titre": "Supprimer le diesel professionnel",
+    "brut": 578,
+    "reel": 427,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-245",
+    "slug": "limiter-les-reductions-de-cotisations",
+    "titre": "Limiter les réductions de cotisations",
+    "brut": 350,
+    "reel": 259,
+    "perte": 0.261
+   },
+   {
+    "id": "BFP-034",
+    "slug": "tailler-dans-les-subsides-federaux",
+    "titre": "Tailler dans les subsides fédéraux",
+    "brut": 1162,
+    "reel": 920,
+    "perte": 0.208
+   },
+   {
+    "id": "BFP-011",
+    "slug": "borner-l-aide-au-premier-engagement",
+    "titre": "Borner l'aide au premier engagement",
+    "brut": 446,
+    "reel": 392,
+    "perte": 0.12
+   },
+   {
+    "id": "BFP-035",
+    "slug": "reduire-la-cooperation-au-developpement",
+    "titre": "Réduire la coopération au développement",
+    "brut": 1432,
+    "reel": 1260,
+    "perte": 0.12
+   },
+   {
+    "id": "BFP-037",
+    "slug": "rationaliser-les-subsides-aux-entreprises",
+    "titre": "Rationaliser les subsides aux entreprises",
+    "brut": 842,
+    "reel": 741,
+    "perte": 0.12
+   },
+   {
+    "id": "BFP-116",
+    "slug": "raboter-le-cout-de-la-fonction-publique",
+    "titre": "Raboter le coût de la fonction publique",
+    "brut": 1200,
+    "reel": 1056,
+    "perte": 0.12
+   },
+   {
+    "id": "BFP-234",
+    "slug": "rabot-de-10-sur-les-subsides-economiques",
+    "titre": "Rabot de 10 % sur les subsides économiques",
+    "brut": 790,
+    "reel": 695,
+    "perte": 0.12
+   }
+  ]
+ }
+}
